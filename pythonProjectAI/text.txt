@@ -1,0 +1,1153 @@
+Elsäkerhetsverkets webbplats använder cookies. Genom att fortsätta på sidan godkänner du användandet av cookies. Varukorg Första kolumnen visar namnet på trycksaken som lagts i varukorgen. Andra kolumnen ger möjlighet att ta bort trycksaken. Tredje kolumnen visar antalet trycksaker av samma sort. I fjärde kolumnen uppdaterar du status om du har ändrat antalet trycksaker. Femte kolumnen visar priset på trycksaken. Publikation Antal Pris Totalt inkl moms och frakt 0 kr Stäng Sök Sök Global sitesök clear Sök Du är här: / / Telefon och adresser Telefon och adresser Du är alltid välkommen att kontakta oss med frågor som rör elsäkerhet och EMC. Vi finns på plats för att hjälpa dig alla helgfria vardagar. Du kan kontakta oss på följande sätt: Har du en fråga om elinstallationer, elektriska produkter, auktorisation eller liknande? Använd vårt webbformulär under Frågor och svar för att få snabbast möjliga svar från någon av våra medarbetare. Du kan även söka bland tidigare frågor, så kanske du hittar ditt svar där. Telefon: Ordinarie telefontider: måndag-fredag 08.00-12.00 LÄS MER: Knappa in ett av följande alternativ Elinstallationer och skötsel av elanläggningar Elinstallationsföretag och egenkontrollprogram Auktorisation för elinstallatörer Registrering av företag Elektriska produkter Begära ut allmänna handlingar Övriga frågor (du blir kopplad till växeln) E-post till . E-post till . E-post direkt till en av våra medarbetare: fornamn.efternamn@elsakerhetsverket.se Uteslut ringar och prickar över å, ä och ö. Dubbla efternamn skrivs med bindestreck mellan namnen. LÄS MER: Fax: 010-168 05 99 Elsäkerhetsverket Box 4 681 21 Kristinehamn Garnisonsvägen 3, 681 54 Kristinehamn (Huvudkontor och regionkontor väst) Valhallavägen 136, 114 41 Stockholm (regionkontor öst) Viaduktgatan 24, 281 38 Hässleholm (regionkontor syd) Riddaregatan 8, 903 36 Umeå (regionkontor nord) LÄS MER: 202100-4466 Handläggningstid för auktorisation Det är många som ansöker om auktorisation som elinstallatör och belastningen på våra handläggare är hög. Vår målsättning är att du ska få ett svar på din ansökan inom två månader . Om du inte hör något från oss, kontrollera gärna din skräppost. Det händer att e-post från oss fastnar i spamfiltret hos vissa mottagare. Du kan även ringa oss på telefon . Knappa in alternativ 3, så får du prata med någon av våra medarbetare. Dina personuppgifter När du kontaktar Elsäkerhetsverket skriftligen blir detta som regel en allmän handling. Beroende på vad ditt meddelande innehåller kommer det och de personuppgifter du lämnar att antingen raderas enligt gällande regler och riktlinjer för gallring, eller att diarieföras och arkiveras. Mer information Senast granskad: 2023-05-05 Dela innehållet med andra Sidfotsnavigation Vi arbetar för hög elsäkerhet och för att elektriska utrustningar inte ska störa varandra. Kontakta oss Telefon: Snabblänkar Om webbplatsen Trygg och störningsfri el Följ oss i sociala medier.
+
+46elks Home
+
+    Vårt API
+    Applikationer
+    Prislista
+    Dokumentation
+    Guider
+    Support
+
+    Logga in
+    Skapa konto
+
+Ett enkelt API för SMS och telefoni
+
+Vi på 46elks ger dina applikationer tillgång till vår infrastruktur för tvåvägs-SMS och telefoni. Och med en prissättning som passar både små och stora projekt.
+
+    Hands clapping for simple pricing
+    Enkel prissättning
+
+    Betala endast för de produkter och tjänster ni faktiskt använder.
+    Lätt att integrera
+
+    Kom igång snabbt med ett flexibelt och väldokumenterat API.
+    Ett telefonsamtal bort
+
+    Vi hjälper dig gärna igång och finns tillgängliga när du behöver det.
+
+Läs mer om vår SMS-tjänst
+
+Några referenser
+
+Används av företag som Caspeco, ProAgile och Sensefarm.
+Av utvecklare som Fredrik Wendt och Henrik Doverhill.
+Arrow pointing down for more information
+Vårt API
+Bygg exakt det som din verksamhet behöver med vår API-tjänst.
+
+    Skicka SMS
+
+    Kommunicera träffsäkert, med snabb leverans och över 99% lästa meddelanden. Flash SMS och mer.
+    Läs mer
+    Tvåvägs-SMS
+
+    Skapa dynamiska applikationer som kan kommunicera med miljarder människor. Få SMS via webhooks.
+    Läs mer, på engelska
+    Bildmeddelanden (MMS)
+
+    Skicka och ta emot bilder & långa texter lika enkelt som med SMS. Inbyggt stöd för att ta emot kartnålar.
+    Läs mer, på engelska
+    Automatiska telefonsamtal
+
+    Automatisera inbjudningar, varningar och tack-meddelanden till flera kunder parallellt via telefoni.
+    Läs mer, på engelska
+    Dynamiska vidarekopplingar
+
+    Telefonnummer där din kod har full kontroll över hur inkommande samtal kopplas och hanteras.
+    Läs mer, på engelska
+    Programmerbar IVR
+
+    Bygg telefonmenyer som kan vara olika för varje enskilt telefonsamtal, spela in automatiskt och mer.
+    Läs mer, på engelska
+    Virtuella telefonnummer
+
+    Internationalisera din verksamhet med SMS-kapabla telefonnummer i 48st länder, fastnätsnummer och mer.
+    Läs mer, på engelska
+
+
+
+Några kundberättelser
+Hiveonline
+
+Bönder i Mozambique hade problem att bevisa att de är kreditvärdiga, vilket gör att de inte kunnat expandera sin verksamhet, SMS har förändrat det.
+Hur Hiveonline hjälper bönder via SMS
+Sverok Admin
+
+Att samordna medlemmar i större föreningar kan vara väldigt energikrävande och automatiska SMS kan vara en viktig pusselbit i smidigare hantering.
+Läs mer om deras lösning
+Sensefarm
+
+För varmt, kallt eller fel fuktnivåer kan skada odlingar rejält och telefonsamtal är det perfekta sättet att varna när läget är allvarligt.
+Mer om dessa telefonsamtal
+Wavy
+
+Smart användning av SMS kan vara nyckeln till att få verksamheter att ta klivet in och börja använda digitala bokningssystem.
+Mer om hur hårfrisörer använder SMS
+Flarie
+
+Att kolla mailen för att logga in i en app får många att stänga din app. Inloggning med mobilnumret ger användaren en helt annan upplevelse.
+Lär om hur Flarie hjälpte Klarna
+White moon and white stars on a blue background with a shining Elk
+46elks
+
+    Kontakta oss
+    Prislista
+    Presskontakt
+    Om företaget
+    Vi är 46elks
+    Lediga jobb
+
+Vårt API
+
+    Skicka SMS
+    Tvåvägs-SMS
+    Bildmeddelanden (MMS)
+    Automatiska telefonsamtal
+    Dynamiska vidarekopplingar
+    Programmerbar IVR
+    Virtuella telefonnummer
+
+Vägledning
+
+    Support
+    Färdiga integrationer
+    API-dokumentation
+    Guider
+    FAQ
+    GDPR
+    SLA
+    Tilläggstjänster
+
+Community
+
+    Kundcase
+    Solutions
+    Blogg
+    T-shirtutmaning 👚
+    API-workshops
+
+🇸🇪 © 2023 46elks AB
+Github logo Medium logo Twitter logo Instagram logo Facebook logo
+Villkor Integritetspolicy Dataskydd
+
+
+    Utbildningar
+    Om oss
+    Nyheter
+    LIA för företag
+    Kontakt
+    Studentportal
+    Ansök här
+
+Välkommen till IT-Högskolan
+Här startar din IT-karriär!
+
+IT-branschen lockar med goda jobbutsikter och efterfrågar ny kompetens och nya yrkesroller. IT-Högskolan möter effektivt upp dina ambitioner och gör en spännande IT-karriär möjlig. Vi finns i Göteborg och Stockholm som en tydligt profilerad högskola inom data och IT med goda branschkontakter. Vi erbjuder IT-utbildningar till en rad drömyrken – och en gräddfil för våra studenter till de bästa praktikplatserna med försprång till jobben inom IT. Våra kvalitetsutbildningar, som även omfattar distanskurser, har gett IT-Högskolan ett högt förtroende i branschen. Ansök redan idag!
+Alla utbildningar
+Göteborg
+Stockholm
+
+Den 1 december öppnar IT-Högskolan ansökan för utbildningar som startar HT 24. Ansökan för våra YH-kurser är öppen nu >>
+Möt våra studenter
+Vi besvarar dina frågor
+FAQ/Vanliga frågor
+
+Är jag behörig? Hur ansöker jag? Måste alla göra antagningsprov? Vi svarar på de vanligaste frågorna här.
+Läs mer
+Välj en framtidsbransch
+Välj IT-branschen - där finns jobben för dig!
+
+Är du sugen på att byta jobb?! IT-branschen har nya jobbet för dig. Gå en av IT-högskolans YH-utbildningar inom IT och starta din nya karriär inom framtidsbranschen IT.
+Skicka in din ansökan idag!
+Fem enkla steg för att bli antagen
+Hur blir man antagen?
+
+Här ser du IT-Högskolans fem steg för att bli antagen till din utbildning.
+Läs mer
+IT är en rolig och fartfylld bransch vilket passar mig som handen i handsken
+
+    För mig fanns det inget annat alternativ än IT-högskolan. Det är givande, intensivt i perioder och roligt med alla praktiska moment som ingår i kurserna. Jag har dessutom hamnat i en helt fantastisk klass, vi trivs oerhört bra tillsammans.
+
+Studerade Mjukvarutestare på IT-Högskolan
+
+Josefine Österlund
+Nyheter
+Alla nyheter
+Våra kursorter
+
+Våra utbildningar drivs på plats i Göteborg och Stockholm, vilket ger dig möjlighet att välja den plats som passar dig bäst för att studera. På IT-högskolan strävar vi alltid efter att erbjuda högkvalitativ utbildning och att ge våra studenter de bästa förutsättningarna för att utvecklas inom IT-branschen. Välkommen att utforska vårt kursutbud! Läs mer om IT-utbildning Stockholm och IT-utbildning Göteborg.
+IT-Högskolans kurskataloger
+
+IT-Högskolan är det självklara valet för dig som är nyfiken på IT-branschen. Hos oss startar din IT-karriär!
+Läs Göteborgs utbildningskatalog
+Läs Stockholms utbildningskatalog
+Till våra utbildningar
+
+    Om oss
+        Inlärning och pedagogik
+        Möt våra studerande
+        Möt vår personal och utbildare
+    Utbildningar
+        .NET-utvecklare
+        JavaScript-utvecklare
+        Utvecklare inom AI och Maskininlärning
+    LIA för IT-företag
+        LIA-processen
+        Arbetsmarknadsdagen
+
+Göteborg
+info@iths.se
+031-790 42 55
+Ebbe Lieberathsgatan 18 c
+Stockholm
+info@iths.se
+08-557 683 53
+Trekantsvägen 1
+
+IT-Högskolan © 2011-2023 All rights reserved.
+
+
+Elenkelt
+
+    Köp eltjänster
+    Installera laddbox
+    Frågor och svar
+    Om oss
+    Kontakt
+
+Få prisförslag från professionella elektriker i Göteborg idag!
+Kontakta oss idag för att ta emot prisförslag från professionella elektriker i Göteborg!
+
+    Namn
+    Gatuadress
+    Postnummer
+    Ort
+    Telefon
+    E-post
+    Vad behöver du hjälp med?
+    Önskat utförandedatum
+    Bifoga bild
+    Godkända filtyper: jpg, png, jpeg, Max filstorlek: 4 MB.
+    Privat/Företag
+        Privatperson
+        Företag
+        Jag godkänner hantering av personuppgifter
+    Comments
+    Detta fält används för valideringsändamål och ska lämnas oförändrat.
+
+Elektriker Göteborg: Pålitliga och erfarna elinstallatörer i Göteborgsregionen.
+Vad behöver du hjälp med? Starta bokning
+
+    Snabb assistans
+    Fasta priser
+    Auktoriserade elektriker
+    Gratis kostnadsförslag
+    Avboka kostnadsfritt
+
+Elfirma Stockholm
+Din lokala elektriker i Göteborg
+
+Letar du efter en kompetent elektriker i Göteborg? Hos oss på Elenkelt kan du enkelt boka en behörig elektriker direkt på vår webbplats. Med oss så slipper du oroa dig över överraskningar på fakturan, vi skriver alltid ut fasta priser på de tjänster vi erbjuder till våra kunder och på så vis kan du känna dig trygg när du bokar en elektriker.
+Tre enkla steg för att få hjälp av en elektriker i Göteborg
+
+När du bokar en elektriker i Göteborg hos oss får du snabbt hjälp med ditt ärende, vare sig det är brådskande eller inte. Du får ett professionellt utfört arbete och högkvalitativa produkter levererade och installerade till konkurrenskraftiga priser.
+
+Så här fungerar det när du bokar en elektriker:
+Lägg din beställning hos oss
+
+Välja bland tillgängliga tjänster och produkter och se ditt fasta pris direkt.
+Vi kontaktar dig inom 24 h
+
+Jobb dirigeras till en behörig elektriker som kontaktar dig via telefon.
+Vi åker ut till dig och installerar
+
+Luta dig tillbaka när våra professionella elektriker utför installationen åt dig på ett säkert och effektivt sätt.
+
+Starta beställning nu
+Därför är det viktigt med en behörig elektriker
+
+Att utföra elinstallationer eller kabeldragningar på egen hand kan få katastrofala konsekvenser, inte minst så kan försäkringar sluta att gälla ut ifall olyckan är framme. Dessutom kan det vara rent olagligt att i vissa fall inte anlita en behörig yrkesperson för att utföra arbetet och det är således bäst att alltid kolla med någon som har koll på regelverk. Med våra elektriker i Göteborg kan du få hjälp oavsett när det behövs. Mer info på ELSÄKERHETSVERKET.
+Boka en elektriker i Göteborg
+
+Boka en elektriker i Göteborg med Elenkelt och få professionell hjälp med ditt problem, hos oss får du alltid ett fast pris och kan vara säker på att jobbet blir korrekt utfört av en elektriker med gedigen erfarenhet.
+
+Mer om oss
+Många av våra mest respekterade kunder litar på vår expertis
+Hajiahmad Madatov
+Hajiahmad Madatov
+2023-08-30
+Mikael was very helpful with the electricity issue at home. He saved us time and money by acting in a professional way. Definitely would recommend him!
+Läs mer
+Gabriella Falck
+Gabriella Falck
+2023-08-07
+Byte av dimmer gick väldigt smidigt och utfördes mycket professionellt. Rekommenderar varmt Mickes tjänster. Man får garanterat mycket bra hjälp och trevligt bemötande.
+Läs mer
+Aida Gilani Bagheri
+Aida Gilani Bagheri
+2023-07-20
+Världens bästa Micke som kom på studs och löste ett problem med en kabel som var trasig. Ett problem som hade kunnat kosta oss betydligt mycket mer än Mickes hjälp! Otroligt serviceinriktad och kompetent. Rekommenderas starkt!
+Läs mer
+Johannes Byrfors
+Johannes Byrfors
+2023-07-20
+Smidig och effektiv bokning. Mikael kom samma dag och löste ett utmanande problem. Rekommenderas varmt!
+
+Johan Ahlberg
+Johan Ahlberg
+2023-07-18
+Elenkelt löste med kort varsel min situation där en spishäll behövde bytas ut. Föreslog bästa lösning med exemplariskt utförande.
+
+Nelson Ormeno
+Nelson Ormeno
+2023-06-20
+Kan varmt rekommendera Mikael och grabbarna på Elenkelt. Proffsigt agerande med fokus på kunden och prisvärt service.
+
+Marcus Nolkrantz
+Marcus Nolkrantz
+2023-06-05
+En huvudsäkring gick i lägenheten. Fick rådgivning kostnadsfritt via telefon vilket gjorde att vi enkelt kunde lösa problemet. Rekommenderar starkt!
+Läs mer
+Per Öberg
+Per Öberg
+2023-06-02
+Snabbt, trevligt och bra!
+Rekommenderar starkt.
+
+Vi kommer att vara din elektriker i Göteborg och tar professionell stolthet och ärlighet till det högsta.
+Högkvalitativt elarbete och pålitlig service: Varför du bör boka oss som din elektriker
+
+    Erfarenhet: Vårt team av elektriker har lång erfarenhet inom branschen och kan hjälpa dig med allt från mindre reparationer till större installationer.
+    Pålitlighet: Vi är stolta över att leverera pålitliga och professionella tjänster till våra kunder. Du kan alltid lita på oss för att få jobbet gjort på rätt sätt och i tid.
+    Kvalitet: Vi använder endast högkvalitativa material och verktyg för att säkerställa att ditt elarbete är gjort på ett säkert och effektivt sätt.
+    Kundservice: Vi strävar alltid efter att ge våra kunder den bästa möjliga kundservicen. Vi lyssnar på dina behov och kommer med förslag på lösningar som passar just dig.
+    Konkurrenskraftiga priser: Vi erbjuder konkurrenskraftiga priser på alla våra tjänster, och vi är alltid transparenta med våra priser så att du vet exakt vad du betalar för.
+    Tillgänglighet: Vi finns tillgängliga för våra kunder när de behöver oss som mest. Vi kan hjälpa till med akuta reparationer och är tillgängliga för bokningar på kort varsel.
+
+Genom att boka Elenkelt som din elektriker i Göteborg kan du vara säker på att du får högkvalitativt elarbete och en professionell och pålitlig service.
+
+Se våra produkter och tjänster
+Skicka in din förfrågan för eltjänster i Göteborg
+
+    Namn
+    Gatuadress
+    Postnummer
+    Ort
+    Telefon
+    E-post
+    Vad behöver du hjälp med?
+    Önskat utförandedatum
+    Bifoga bild
+    Godkända filtyper: jpg, png, jpeg, Max filstorlek: 4 MB.
+    Vid besök på plats så räknas kostnaden för besöket av om du som kund väljer att gå vidare med oss.
+    Privat/Företag
+        Privatperson
+        Företag
+        Jag godkänner hantering av personuppgifter
+    Comments
+    Detta fält används för valideringsändamål och ska lämnas oförändrat.
+
+Få ett prisförslag av en elektriker Göteborg
+Kontakta oss för att få ett gratis kostnadsförslag av en elektriker!
+
+    Namn
+    Gatuadress
+    Postnummer
+    Ort
+    Telefon
+    E-post
+    Vad behöver du hjälp med?
+    Önskat utförandedatum
+    Bifoga bild
+    Godkända filtyper: jpg, png, jpeg, Max filstorlek: 4 MB.
+    Vid besök på plats så räknas kostnaden för besöket av om du som kund väljer att gå vidare med oss.
+    Privat/Företag
+        Privatperson
+        Företag
+        Jag godkänner hantering av personuppgifter
+    Email
+    Detta fält används för valideringsändamål och ska lämnas oförändrat.
+
+Elektricitet är viktig men farlig om den inte hanteras rätt. Kunskap om elsäkerhet är därför viktig för att minimera riskerna för olyckor och skador.
+Hur du enkelt och effektivt byter dina gamla lysrör till energisnåla LED-lampor – En steg-för-steg guide
+Hur du enkelt och effektivt byter dina gamla lysrör till energisnåla LED-lampor – En steg-för-steg guide
+
+av elenkelt | mar 29, 2023 | Nyheter
+
+  Nu är det dags att säga hejdå till dina gamla lysrör, eftersom EU-kommissionen har reviderat RoHS-direktivet 2011/65/EU och förbjuder kvicksilverhaltiga ljuskällor. Detta kommer att påverka både ditt hem och ditt företag. Men oroa dig inte, för Elenkelt har...
+Ska du renovera? Prata med en elektriker!
+Ska du renovera? Prata med en elektriker!
+
+av elenkelt | mar 27, 2023 | Nyheter
+
+Ska du renovera? Prata med en elektriker! Våren är här och det är dags att fräscha upp ditt hem. Maj är den typiska månaden för vårstädning, men det är också månaden då många vill sätta igång med renoveringen. Har du stora planer på att renovera? Sedan är det några...
+« Äldre inlägg
+Behöver du ett prisförslag? Våra elektriker i Göteborg står redo att hjälpa dig och går gärna igenom dina behov över telefon 📞 010-650 01 61
+
+
+Copyright © elenkelt.se
+Ring nu
+
+010-650 01 61
+Länkar
+
+Bli en elektriker
+Användar- och beställningsvillkor
+Nyheter
+Adress
+
+Grev Turegatan 30 114 38 Stockholm
+Kontakt
+
+info@elenkelt.se
+
+instagram
+facebook
+
+logotyp
+Hjälp
+Logga in
+Klubbar
+Göteborg
+
+Kom förbi vår Club i Göteborg och upplev Lynk & Co i vår hemstad! På Club Göteborg kombinerar vi skandinavisk enkelhet med stadens industriella rötter ... men givetvis med en Lynk & Co-twist.
+gothenburg club lynk & co
+Chilla en stund
+
+Kom förbi, kolla in våra erbjudanden och ta en kopp kaffe och en pratstund med vårt team.
+gothenburg club lynk & co
+Jobb
+
+Arbete på egen hand, samarbete med kollegor eller kanske ett teammöte? Hos oss är allt möjligt, och vi har WiFi, förfriskningar och allt som behövs för att hålla produktiviteten på topp.
+gothenburg club lynk & co
+Upplev 01
+
+01 står här och väntar på dig. Kom in och kolla och kör en sväng med den!
+Boka en provkörning
+gothenburg club lynk & co
+Get in Gear
+
+Fördjupa dig i vårt häftiga och inspirerande utbud av hållbara produkter.
+Utforska Gear
+Besök klubben
+
+
+Ekelundsgatan 4
+411 18 Göteborg
+Sverige
+
+Måndag till fredag: 10:00–18:00
+Lördag: 11:00–16:00
+Söndag: Stängt
+
+Hur kommer jag dit?
+Följ Göteborgsklubben
+address gothenburg club
+Missa inga event nära dig! Registrera dig för vårt nyhetsbrev.
+Utforska alla våra klubbar
+AMS
+Amsterdam, Nederländerna
+
+Den första Lynk & Co-klubben någonsin ligger i hjärtat av Amsterdam. Tips: Kolla in badrummen! Du kommer inte att bli besviken.
+Utforska klubben
+Antwerpen
+Antwerpen, Belgien
+
+Vår klubb i Antwerpen är on fire! (Inte bokstavligen då den ligger i en före detta brandstation.)
+Utforska klubben
+Men photographing
+Barcelona, Spanien
+
+Välkommen till paradiset! Klubben i Barcelona har inte designats för att du ska kunna lägga upp snygga bilder på Instagram, även om vi förstår att det kan se så ut …
+Utforska klubben
+Berlin
+Berlin, Tyskland
+
+Vi tycker såklart att alla våra klubbar är häftiga, men klubben i Berlin … alltså … Wow!
+Utforska klubben
+Lynk & Co Club Dusseldorf
+Düsseldorf, Tyskland
+
+Oavsett om du är intresserad av 01, behöver en stunds avkoppling eller letar efter närmaste dansgolv, så hittar du det på vår Club.
+Utforska klubben
+GOT
+Göteborg, Sverige
+
+Utforska klubben i vår hemstad, med inredning inspirerad av Göteborg. Självklart finns här en bastu, vi är ju trots allt i Skandinavien.
+Utforska klubben
+Inside Hamburg
+Hamburg, Tyskland
+
+De här är vår första pop-up! Kom förbi och få ett smakprov av Lynk & Co-upplevelsen i ett lite mindre format.
+Utforska klubben
+club milan
+Milano, Italien
+
+Kör en sväng med 01 på nya Club Milano. Gåtfullt, djärvt och aldrig tråkigt – precis som allt annat här i världens designhuvudstad.
+Utforska klubben
+club munich
+München, Tyskland
+
+Den tillfälliga klubben i München ligger precis bredvid Marienplatz, i stadens historiska stadskärna.
+Utforska klubben
+Lynk & Co Club Rome
+Rom, Italien
+
+Kasta ett mynt i Fontana di Trevi och ta en sväng förbi Roms nya sevärdhet: Lynk & Co:s nya klubb!
+Utforska klubben
+Stockholm Club
+Stockholm, Sverige
+
+Besök vår klubb i hufvudstaden. Här anordnar vi schyssta events, serverar en grym kaffe och bjuder på ett härligt häng.
+Utforska klubben
+Startsida
+Klubbar
+Club Göteborg
+Till toppen
+LYNC&CO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lynk & Co
+
+    Om oss
+    Hållbarhet
+    Bildelning
+    Utforska 01:an
+    Boka provkörning
+    Nyhetsbrev
+    Karriär
+
+ERBJUDANDEN
+
+    Abonnera
+    Leasa
+    Köp
+    Låna
+    Företag
+
+Kontakt
+
+    Hjälp
+    Kontakta oss
+    Göteborg club
+    Stockholm club
+    Press
+    För ägare
+    Oberoende verkstäder
+
+Juridisk information
+
+    Regler och villkor
+    Integritet
+    Cookies
+    Företagsinformation
+
+© 2023 Lynk & Co
+
+
+Carco
+
+    Who we are
+    Automotive
+    Energy
+    Sustainability
+    Get in touch
+    Career
+
+Carco
+
+Together we make an impact
+Let us collaborate
+Innovation, optimization and relation
+
+If you’re ready to innovate and optimize your business, Carco can help you visualize, deliver, and run your future success, from strategy development through implementation. Because progress isn’t created alone.
+Read more
+
+Bror Nilssons gata 16, 417 55 Göteborg, Sweden info@carcosweden.se
+
+    Linkedin
+
+
+
+Surikat leads automation project of Scandlines’ ports. Read here
+Skip to Content
+Surikat AB - Make business decisions with real-time insights
+Solutions
+Transport & Logistics
+Ferries, ports & terminals
+About Us
+Company
+News
+Case studies
+GDPR
+Lynx
+Career
+Contact Us
+Innovative SaaS solutions for transportation, logistics, ports and terminals.
+Contact us
+See our products
+
+Lynx
+Lynx is a SAAS platform focused on Supply Chain Solutions.
+
+Our approach is focused on developing practical and sustainable applications that result in enduring and successful partnerships with our clients. We prioritize long-term thinking in our work to ensure that our solutions meet the evolving needs of our clients and provide ongoing value.
+Transports & Logistics
+
+Lynx SaaS platform for LMW,  4PL & Control Tower.
+Explore
+Maritime
+
+Lynx SaaS platform for gates and terminal operations.
+Explore
+
+Case studies
+Trusted by customers across the globe
+
+”The continuous digitalisation and automation of port operations is vital for both Stena Line and our customers’ success in the future. We continue to invest in Surikat’s system that enables us to improve the efficiency and streamline our processes in our ports and terminals, to improve the service to our customers.”, says Carl-Johan Hellner, Chief Operating Officer, Ports and Digital Transformation at Stena Line.
+
+View case studies
+Leverage real-time insights to inform strategic decision-making within your organization.
+
+We offer Lynx SaaS and hardware solutions that automate and digitize operations, helping drive growth and efficiency.
+About us
+Our solutions
+Our solutions
+
+Explore our Lynx platform.
+Lynx Products
+About our customers
+About our customers
+
+Read our case studies.
+Case studies
+Work at Surikat
+Work at Surikat
+
+Join our team!
+Career
+
+Lilla Bommen 1 17tr 41104 Göteborg Sweden
+
+Org-nr: 556633 0840
+
+Solutions
+
+Career
+
+Contact
+
+About Us
+
+GDPR
+
+2023 Surikat AB
+
+IT-produkter och tjänster på ett ställe
+Leverans inom 1-2 vardagar
+Trygg och säker betalning
+Vad letar du efter?
+
+    Tjänster & Lösningar
+    Kunskapsbanken
+    Kundservice & Support
+
+    Företag
+    Privatperson
+
+Datorer & surfplattor
+Datorutrustning & tillbehör
+Ljud & bild
+Skrivare & förbrukning
+Telefoner & GPS
+Lagring Intern & Extern
+Nätverk
+Kontor, hem & skola
+Visa alla kategorier
+Bästsäljande kampanjprodukter
+
+    Logitech Combo MK850 Performance Nordiska länderna Sats med tangentbord och mus
+    Logitech
+    Combo MK850 Performance Nordiska länderna Sats med…
+
+-35%
+1 119 kr719 krExkl. moms
+50 kvar
+Logitech C920 HD Pro USB 2.0 Webbkamera
+Logitech
+C920 HD Pro USB 2.0 Webbkamera
+-11%
+679 kr599 krExkl. moms
++100 kvar
+Samsung F24T450F 24" 1920 x 1080 16:9 IPS 75Hz
+Samsung
+F24T450F 24" 1920 x 1080 16:9 IPS 75Hz
+Nytt lägre pris
+Produkt­informations­blad
+1 999 kr1 599 krExkl. moms
++100 kvar
+Logitech MeetUp
+Logitech
+MeetUp
+-10%
+6 147 kr5 499 krExkl. moms
++100 kvar
+Lenovo ThinkBook 15 G4 Core i5 16GB 512GB 15.6"
+Lenovo
+ThinkBook 15 G4 Core i5 16GB 512GB 15.6"
+-25%
+7 999 kr5 999 krExkl. moms
++100 kvar
+Voxicon Slim Metal Keyboard 295 Grey +Pro Mouse Dm-P30wl Nordiska länderna Sats med tangentbord och mus
+Voxicon
+Slim Metal Keyboard 295 Grey +Pro Mouse Dm-P30wl Nordiska…
+-50%
+1 399 kr699 krExkl. moms
+6 kvar
+Sony WH-1000XM4 Hörlurar 3,5 mm kontakt Svart
+Sony
+WH-1000XM4 Hörlurar 3,5 mm kontakt Svart
+-15%
+2 649 kr2 232 krExkl. moms
++100 kvar
+Samsung F24T372 24" 1920 x 1080 16:9 IPS 75Hz
+Samsung
+F24T372 24" 1920 x 1080 16:9 IPS 75Hz
+Nytt lägre pris
+Produkt­informations­blad
+1 595 kr1 399 krExkl. moms
++100 kvar
+Philips E-Line 346E2CUAE Curved 34" 3440 x 1440 21:9 VA 100Hz
+Philips
+E-Line 346E2CUAE Curved 34" 3440 x 1440 21:9 VA 100Hz
+-16%
+Produkt­informations­blad
+4 799 kr3 992 krExkl. moms
++100 kvar
+Lenovo ThinkPad E14 G4 Core i7 16GB 512GB 14"
+Lenovo
+ThinkPad E14 G4 Core i7 16GB 512GB 14"
+Begränsat parti
+10 799 kr7 999 krExkl. moms
++100 kvar
+Voxicon VXV765QL 65" 4K QLED Android TV + Chromecast
+Voxicon
+VXV765QL 65" 4K QLED Android TV + Chromecast
+-36%
+Produkt­informations­blad
+7 499 kr4 799 krExkl. moms
+17 kvar
+HP 255 G8 Ryzen 5 8GB 256GB 15.6"
+HP
+255 G8 Ryzen 5 8GB 256GB 15.6"
+-6%
+4 295 kr3 999 krExkl. moms
+
+    +100 kvar
+
+Visa alla
+Dustins egna varumärken
+
+    Voxicon VXV765QL 65" 4K QLED Android TV + Chromecast
+    Voxicon
+    VXV765QL 65" 4K QLED Android TV + Chromecast
+    -36%
+
+Produkt­informations­blad
+7 499 kr4 799 krExkl. moms
+17 kvar
+Voxicon O27UHDP USB-C Skärm (65W) Ergonomic 27" 3840 x 2160 16:9 IPS 60Hz
+Voxicon
+O27UHDP USB-C Skärm (65W) Ergonomic 27" 3840 x 2160 16:9 IP…
+-31%
+Produkt­informations­blad
+4 399 kr2 999 krExkl. moms
++100 kvar
+Voxicon G34UHDW Ergonomic 34" 3440 x 1440 21:9 VA 100Hz
+Voxicon
+G34UHDW Ergonomic 34" 3440 x 1440 21:9 VA 100Hz
+-7%
+Produkt­informations­blad
+3 795 kr3 499 krExkl. moms
++100 kvar
+Voxicon Slim Metal Keyboard 295 Grey +Pro Mouse Dm-P30wl Nordiska länderna Sats med tangentbord och mus
+Voxicon
+Slim Metal Keyboard 295 Grey +Pro Mouse Dm-P30wl Nordiska…
+-50%
+1 399 kr699 krExkl. moms
+6 kvar
+Voxicon P24FHD Skärm + Displayport - Hdmi Kabel 23.8" 1920 x 1080 16:9 IPS 60Hz
+Voxicon
+P24FHD Skärm + Displayport - Hdmi Kabel 23.8" 1920 x 1080 16:9 IPS…
+Produkt­informations­blad
+1 295 krExkl. moms
++100 kvar
+Voxicon DC65U3PAP 65" + Logitech Meetup USB Webcam 4K 65" 500cd/m² 4K UHD (2160p) 16:9
+Voxicon
+DC65U3PAP 65" + Logitech Meetup USB Webcam 4K 65" 500cd/m² 4K…
+14 999 krExkl. moms
+23 kvar
+Voxicon Headphones GR8-912 ANC Hörlurar 3,5 mm kontakt USB-C Stereo
+Voxicon
+Headphones GR8-912 ANC Hörlurar 3,5 mm kontakt USB-C Stereo
+Nytt lägre pris
+849 kr599 krExkl. moms
++100 kvar
+Voxicon On-Ear Headphone 322A Hörlurar Stereo
+Voxicon
+On-Ear Headphone 322A Hörlurar Stereo
+159 krExkl. moms
++100 kvar
+Voxicon Conference Webcam 4K 1100
+Voxicon
+Conference Webcam 4K 1100
+-46%
+2 799 kr1 499 krExkl. moms
++100 kvar
+Voxicon O40WUHD 5K USB-C 65W CURVED 40" 5120 x 2160 21:9 IPS 75Hz
+Voxicon
+O40WUHD 5K USB-C 65W CURVED 40" 5120 x 2160 21:9 IPS 75Hz
+-20%
+Produkt­informations­blad
+14 999 kr11 999 krExkl. moms
+29 kvar
+Voxicon 280 Slim Metal Wireless Nordiska länderna Sats med tangentbord och mus
+Voxicon
+280 Slim Metal Wireless Nordiska länderna Sats med tangentbord oc…
+349 krExkl. moms
+4 kvar
+Voxicon Webbkamera HD USB Webbkamera
+Voxicon
+Webbkamera HD USB Webbkamera
+Nytt lägre pris
+449 kr345 krExkl. moms
+
+    +100 kvar
+
+Läs mer
+IT-produkter och tjänster på ett ställe
+
+Sök bland 265 000 produkter, tjänster och lösningar.
+Leverans inom 1-2 vardagar
+
+Ordrar lagda innan klockan 16.00 skickas samma vardag
+Trygg och säker betalning
+
+Handla tryggt och säkert med vanliga betalsätt
+Nya produkter
+
+    Ångström X-Ray XL Core i9 64GB 2000GB SSD RTX 4090
+    Ångström
+    X-Ray XL Core i9 64GB 2000GB SSD RTX 4090
+    Nyhet
+    49 599 krExkl. moms
+
+2 kvar
+Samsung ViewFinity S6 S34C652VAU Webcam Curved 34" 3440 x 1440 21:9 VA 100Hz
+Samsung
+ViewFinity S6 S34C652VAU Webcam Curved 34" 3440 x 1440…
+Nyhet
+Produkt­informations­blad
+5 999 krExkl. moms
+7 kvar
+HP Color LaserJet Pro MFP 4302fdw A4
+HP
+Color LaserJet Pro MFP 4302fdw A4
+Nyhet
+6 699 krExkl. moms
+3 kvar
+HP Color LaserJet Pro MFP 4302dw A4
+HP
+Color LaserJet Pro MFP 4302dw A4
+Nyhet
+5 399 krExkl. moms
+2 kvar
+Samsung ViewFinity S6 S34C652UAU Curved 34" 3440 x 1440 21:9 VA 100Hz
+Samsung
+ViewFinity S6 S34C652UAU Curved 34" 3440 x 1440 21:9 VA 100Hz
+Nyhet
+Produkt­informations­blad
+5 499 krExkl. moms
+17 kvar
+Ångström X-Ray Core i7 16GB 1000GB SSD RTX 4070
+Ångström
+X-Ray Core i7 16GB 1000GB SSD RTX 4070
+Nyhet
+23 999 krExkl. moms
+3 kvar
+Jabra Elite 10 Active - Svart True wireless-hörlurar Stereo Svart
+Jabra
+Elite 10 Active - Svart True wireless-hörlurar Stereo Svart
+Nyhet
+2 392 krExkl. moms
+33 kvar
+Teltonika RUT956 Industriell LTE Router #Global
+Teltonika
+RUT956 Industriell LTE Router #Global
+Nyhet
+2 649 krExkl. moms
+11 kvar
+Yealink MeetingBar A20 Inkl Touch Panel CTP18 + WPP30
+Yealink
+MeetingBar A20 Inkl Touch Panel CTP18 + WPP30
+Nyhet
+17 995 krExkl. moms
+2 kvar
+Jabra Elite 8 Active - Svart True wireless-hörlurar Stereo Svart
+Jabra
+Elite 8 Active - Svart True wireless-hörlurar Stereo Svart
+Nyhet
+1 992 krExkl. moms
+6 kvar
+Lenovo ThinkSystem ST50 V2 + 2x 1TB HDD + extra RAM Xeon E-2324G Fyrkärnig
+Lenovo
+ThinkSystem ST50 V2 + 2x 1TB HDD + extra RAM Xeon E-2324G…
+-21%
+12 701 kr9 995 krExkl. moms
+9 kvar
+GoPro HERO12 Black
+GoPro
+HERO12 Black
+Nyhet
+4 392 krExkl. moms
+
+    +100 kvar
+
+Visa alla
+Populära varumärken
+apple logo link
+cisco logo link
+dell technologies logo link
+hewlett packard logo link
+hewlett packard enterprise logo link
+lenovo logo link
+microsoft logo link
+Bästsäljare
+
+    Logitech M705 Business Trådlös Mus Grå Svart
+    Logitech
+    M705 Business Trådlös Mus Grå Svart
+
+399 krExkl. moms
++100 kvar
+Logitech Combo MK850 Performance Nordiska länderna Sats med tangentbord och mus
+Logitech
+Combo MK850 Performance Nordiska länderna Sats med…
+-35%
+1 119 kr719 krExkl. moms
+50 kvar
+Logitech MK540 Advanced Nordiska länderna Sats med tangentbord och mus
+Logitech
+MK540 Advanced Nordiska länderna Sats med tangentbord oc…
+539 krExkl. moms
++100 kvar
+Apple iPhone 13 128GB Midnatt
+Apple
+iPhone 13 128GB Midnatt
+7 799 krExkl. moms
++100 kvar
+Logitech C920 HD Pro USB 2.0 Webbkamera
+Logitech
+C920 HD Pro USB 2.0 Webbkamera
+-11%
+679 kr599 krExkl. moms
++100 kvar
+Jabra Evolve 65 SE MS Headset USB-A via Bluetooth-adapter Microsoft-teams Stereo Svart
+Jabra
+Evolve 65 SE MS Headset USB-A via Bluetooth-adapter Microsoft-…
+1 599 krExkl. moms
+93 kvar
+Samsung Galaxy S22 128GB Dual-SIM Fantomsvart
+Samsung
+Galaxy S22 128GB Dual-SIM Fantomsvart
+6 399 krExkl. moms
++100 kvar
+Ubiquiti UniFi U6 Pro Accesspunkt
+Ubiquiti
+UniFi U6 Pro Accesspunkt
+1 719 krExkl. moms
++100 kvar
+Samsung F24T450F 24" 1920 x 1080 16:9 IPS 75Hz
+Samsung
+F24T450F 24" 1920 x 1080 16:9 IPS 75Hz
+Nytt lägre pris
+Produkt­informations­blad
+1 999 kr1 599 krExkl. moms
++100 kvar
+Samsung Galaxy Xcover 5 Enterprise Edition 64GB Dual-SIM Svart
+Samsung
+Galaxy Xcover 5 Enterprise Edition 64GB Dual-SIM Svart
+2 799 krExkl. moms
++100 kvar
+Logitech Desktop MK120 Nordiska länderna Sats med tangentbord och mus
+Logitech
+Desktop MK120 Nordiska länderna Sats med tangentbord och mus
+279 krExkl. moms
++100 kvar
+Jabra Evolve2 65 MS Headset USB-A Microsoft-teams Stereo Svart
+Jabra
+Evolve2 65 MS Headset USB-A Microsoft-teams Stereo Svart
+Rekommenderad
+2 159 krExkl. moms
+
+    +100 kvar
+
+Skapa företagskonto
+
+Fördelar med konto
+
+    Följ din order och se din orderhistorik
+    Spara favoriter och skapa jämförelselistor
+    Hantera enkelt dina returer, reklamationer och garantiärenden
+
+Skapa företagskonto
+
+Ring oss på
+08-553 44 000
+
+Mån–fre
+08:00–17:00
+
+Betalningsalternativ
+Mastercard
+Visa
+Trustly
+Faktura
+
+Leveransalternativ
+Postnord
+
+Trygg shopping
+mcid
+verifiedbyvisa
+
+Välj land
+Handla på Dustin
+
+    Försäljningsvillkor
+    Betalningsinformation
+    Leveransinformation
+    Fraktinformation
+    Kontovillkor
+    Integritetspolicy
+    Cookiepolicy
+    Kampanjguide
+    Black Friday 2023
+
+Kundservice
+
+    Beställning
+    Leverans
+    Reklamation & återköp
+    Teknisk support
+    Betalning
+    Chatta med oss
+
+Det här är Dustin
+
+    Press
+    Om Dustin Group
+    Karriär
+    Hållbart val
+    Dustin Takeback
+    Dustins egna varumärken
+    Storföretag
+    Offentlig sektor
+    Gå med i vår användarpanel
+
+Inspiration
+
+    Nyhetsbrev
+    Kunskapsbanken
+    Våra magasin
+    Eventkalender
+    Kampanjprodukter
+
+Dustin Sverige AB, Box 1194, 131 27 Nacka Strand. Organisationsnummer: 556666-1012
+
+© 2023 Dustin Group AB. All rights reserved.
+facebook icon
+instagram icon
+youtube icon
+twitter icon
+linkedin icon
+
+Din kundvagn är tom
+
+Visa priser inkl. moms
+Totalt: 0 kr
+Gå till kundvagnen
+Combo MK850 Performance Nordiska länderna Sats med…
+C920 HD Pro USB 2.0 Webbkamera
+F24T450F 24" 1920 x 1080 16:9 IPS 75Hz
+MeetUp
+ThinkBook 15 G4 Core i5 16GB 512GB 15.6"
+Slim Metal Keyboard 295 Grey +Pro Mouse Dm-P30wl Nordiska…
+WH-1000XM4 Hörlurar 3,5 mm kontakt Svart
+F24T372 24" 1920 x 1080 16:9 IPS 75Hz
+E-Line 346E2CUAE Curved 34" 3440 x 1440 21:9 VA 100Hz
+ThinkPad E14 G4 Core i7 16GB 512GB 14"
+VXV765QL 65" 4K QLED Android TV + Chromecast
+255 G8 Ryzen 5 8GB 256GB 15.6"
+P24FHD Skärm + Displayport - Hdmi Kabel 23.8" 1920 x 1080 16:9 IPS…
+DC65U3PAP 65" + Logitech Meetup USB Webcam 4K 65" 500cd/m² 4K…
+Headphones GR8-912 ANC Hörlurar 3,5 mm kontakt USB-C Stereo
+On-Ear Headphone 322A Hörlurar Stereo
+Conference Webcam 4K 1100
+O40WUHD 5K USB-C 65W CURVED 40" 5120 x 2160 21:9 IPS 75Hz
+280 Slim Metal Wireless Nordiska länderna Sats med tangentbord oc…
+Webbkamera HD USB Webbkamera
+ViewFinity S6 S34C652UAU Curved 34" 3440 x 1440 21:9 VA 100Hz
+X-Ray Core i7 16GB 1000GB SSD RTX 4070
+Elite 10 Active - Svart True wireless-hörlurar Stereo Svart
+RUT956 Industriell LTE Router #Global
+MeetingBar A20 Inkl Touch Panel CTP18 + WPP30
+Elite 8 Active - Svart True wireless-hörlurar Stereo Svart
+ThinkSystem ST50 V2 + 2x 1TB HDD + extra RAM Xeon E-2324G…
+HERO12 Black
+M705 Business Trådlös Mus Grå Svart
+Combo MK850 Performance Nordiska länderna Sats med…
+MK540 Advanced Nordiska länderna Sats med tangentbord oc…
+iPhone 13 128GB Midnatt
+C920 HD Pro USB 2.0 Webbkamera
+Evolve 65 SE MS Headset USB-A via Bluetooth-adapter Microsoft-…
+Galaxy S22 128GB Dual-SIM Fantomsvart
+UniFi U6 Pro Accesspunkt
+F24T450F 24" 1920 x 1080 16:9 IPS 75Hz
+Galaxy Xcover 5 Enterprise Edition 64GB Dual-SIM Svart
+Desktop MK120 Nordiska länderna Sats med tangentbord och mus
+Evolve2 65 MS Headset USB-A Microsoft-teams Stereo Svart
+VXV765QL 65" 4K QLED Android TV + Chromecast
+O27UHDP USB-C Skärm (65W) Ergonomic 27" 3840 x 2160 16:9 IP…
+G34UHDW Ergonomic 34" 3440 x 1440 21:9 VA 100Hz
+Slim Metal Keyboard 295 Grey +Pro Mouse Dm-P30wl Nordiska…
+X-Ray XL Core i9 64GB 2000GB SSD RTX 4090
+ViewFinity S6 S34C652VAU Webcam Curved 34" 3440 x 1440…
+Color LaserJet Pro MFP 4302fdw A4
+Color LaserJet Pro MFP 4302dw A4

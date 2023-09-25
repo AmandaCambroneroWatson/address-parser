@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pythonProjectAI.iml" filepath="$PROJECT_DIR$/.idea/pythonProjectAI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NERlearning.iml" filepath="$PROJECT_DIR$/.idea/NERlearning.iml" />
     </modules>
   </component>
 </project>
