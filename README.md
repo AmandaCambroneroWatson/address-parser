@@ -44,20 +44,27 @@ The json file contains the data used by the model.
 The address is marked by the enteties. In the example above, the address is the enteties 0-26.
 Negative training data is added so that the AI knows what NOT to look for, basically everything that is not an address is negative data.
 
-## Getting Started/Installing
-Clone the repo. Using git.
-```
-git clone https://github.com/AmandaCambroneroWatson/address-parser.git
-```
-I recommend using PyCharm to run and work on the script.
+## Getting Started/Installing (PyCharm)
+### Step 1
+In PyCharm, create a new project.
+### Step 2
+In the top toolbar click VCS > Get from version control > Paste the URL and clone
+### Step 3
+Click OK on the popup to create a virtual environment. After that please install Spacy
+### Done
+Now you should be able to run the scripts.
+
+
+If not, refer to [this](https://www.youtube.com/watch?v=cAnWazo5pFU) video for help.
 
 ### Dependencies
 Git
 Spacy
+PyCharm (optional)
 
 ### Executing program
 In PyCharm you can simply run the file you want from the toolbar.
-So run the test script to test the AI.
+So run the test script to test the model.
 
 ## Version History
  0.1
