@@ -52,7 +52,7 @@ In the top toolbar click VCS > Get from version control > Paste the URL and clon
 ### Step 3
 Click OK on the popup to create a virtual environment. After that please install Spacy
 ### Done
-Now you should be able to run the scripts.
+Now you should be able to run the scripts. Try running the test.py script.
 
 
 If not, refer to [this](https://www.youtube.com/watch?v=cAnWazo5pFU) video for help.
