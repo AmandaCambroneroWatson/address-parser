@@ -1,0 +1,556 @@
+{
+	"classes": ["ADDRESS", "TEL", "PERSON", "COMPANY", "EMAIL", "URL"],
+	"annotations": [
+		[
+			"Gå vidare till innehåll\nSENAB\nÖppna menyn\nTelefon 08-586 350 00\nE-post kundservice@senab.com",
+			{
+				"entities": [[50, 63, "TEL"]]
+			}
+		],
+		[
+			"Göteborg\nFiskhamnsgatan 6C\n414 58 Göteborg",
+			{
+				"entities": [[9, 42, "ADDRESS"]]
+			}
+		],
+		[
+			"Senab\n+46 8 586 350 00\nkundservice@senab.com",
+			{
+				"entities": [[6, 22, "TEL"]]
+			}
+		],
+		[
+			"Elektronikhöjden 6\n175 43 Järfälla",
+			{
+				"entities": [[0, 34, "ADDRESS"]]
+			}
+		],
+		[
+			"FLER NYHETER\nPERSONLIG TRÄNING\nPERSONLIG TRÄNING\nFRISKVÅRD\nFRISKVÅRD / FÖRETAGSTRÄNING\nSVENSEXA/MÖHIPPA\nSVENSEXA/MÖHIPPA\nSKOLIDROTT\nSKOLIDROTT\nSearch for:\nKlicka för att godkänna marknadsföring cookies och aktivera detta innehåll\nFIGHTER CENTRE\nVi finns mitt i Centrala Göteborg i Vasastan på Viktoriagatan 19. (Klicka på kartan för förstoring.)",
+			{
+				"entities": [[281, 310, "ADDRESS"]]
+			}
+		],
+		[
+			"Klicka för att godkänna marknadsföring cookies och aktivera detta innehåll\nFighter Centre Göteborg\nViktoriagatan 19\n411 31 Göteborg",
+			{
+				"entities": [[99, 131, "ADDRESS"]]
+			}
+		],
+		[
+			"KAMPSPORTER\nTHAIBOXNING / MUAY THAI\nMIXED MARTIAL ARTS – MMA\nKICKBOXNING\nBRAZILIAN JIU-JITSU – BJJ\nBOXNING\nTAE KWON-DO ITF\nKONTAKTA OSS\nIntresseanmälanVåra kampsporterFrågor & SvarNyheterBesök oss på Facebook\nKontaktuppgifter\nFighter Centre\nViktoriagatan 19\n411 25 Göteborg",
+			{
+				"entities": [[241, 273, "ADDRESS"]]
+			}
+		],
+		[
+			"info@gbgmac.se\nAugust Barks gata 2\nFrölunda / Sisjön\nKampsporter\nThaiboxning / Kickboxning\nMMA\nBoxning\nBrasiliansk Jiu Jitsu (BJJ)\nBarn & ungdomsträning\nOm oss\nOm GBG MAC\nGBG MAC IF\nGBG MAC AB\nPrislista\nMedlemsvillkor\nPersonuppgiftspolicy\nÖppettider\nReception\nMån 16:30-20:45\nTis  16:30-20:45\nOns  16:30-20:45\nTor  16:30-20:45\nFre 17:30-19:30\nSön 16:30-19:45",
+			{
+				"entities": [[15, 43, "ADDRESS"]]
+			}
+		],
+		[
+			"Kontakt\nHälsingegatan 10, 414 63 Göteborg\nTel: +4631 704 10 00\nFax: +4631 704 10 29",
+			{
+				"entities": [
+					[8, 41, "ADDRESS"],
+					[47, 62, "TEL"]
+				]
+			}
+		],
+		[
+			"Företag & Försäkring i Göteborg AB\nFöretag & Försäkring i Göteborg AB\nDrakegatan 10, Göteborg\nFöretag & Form i Göteborg HB\nFöretag & Form i Göteborg HB\nKungsgatan 41, Göteborg\nTelefon031-762 36 Visa\nFöretag & Form i Göteborg Handelsbolag\nFöretag & Form i Göteborg Handelsbolag\nKungsgatan 41, Göteborg\nFöretag & Försäkring i Göteborg Kommandi\nFöretag & Försäkring i Göteborg Kommandi\nLilla Bommen 2, Göteborg\nTelefon031-80 67 Visa\nWallenstam Företag AB\nWallenstam Företag AB\nKungsportsavenyen 2, Göteborg\nAfrah Företag\nAfrah Företag\nRimfrostgatan 91, Göteborg\nMosn's E-Handels Företag\nMosn's E-Handels Företag\nGalileis Gata 11, Göteborg\nMustaqbal Företag Handelsbolag\nMustaqbal Företag Handelsbolag\nBox 13100, Göteborg\n2.0\n1 omdöme\nHandelsbanken Göteborg Örgryte\nHandelsbanken Göteborg Örgryte\nCheckbox\nPrästgårdsängen 1, Göteborg\n5.0\n1 omdöme\nTelefon031-703 59 Visa\nHemsida\nHemsida\nHandelsbanken Göteborg City\nHandelsbanken Göteborg City\nCheckbox\nDrottninggatan 36, Göteborg\n2.0\n1 omdöme\nTelefon031-774 82 Visa\nHemsida\nHemsida\nHandelsbanken Göteborg Masthuggskajen\nHandelsbanken Göteborg Masthuggskajen\nCheckbox\nMasthamnsgatan 21, Göteborg\n5.0\n1 omdöme\nTelefon031-85 04 Visa\nHemsida\nHemsida\nAlert Senior Göteborg\nAlert Senior Göteborg\nCheckbox\nÄttehögsgatan 8 A, Göteborg\n4.2\n5 omdömen\nTelefon031-396 00 Visa\nHandelsbanken Göteborg Lindholmen\nHandelsbanken Göteborg Lindholmen\nCheckbox\nLindholmsallén 20, Göteborg\nTelefon031-336 15 Visa\nHemsida\nHemsida\nHandelsbanken Göteborg Avenyn\nHandelsbanken Göteborg Avenyn\nCheckbox\nKungsportsavenyn 34, Göteborg\n4.0\n4 omdömen\nTelefon031-743 87 Visa\nHemsida\nHemsida\nGrande Måleri Göteborg AB\nGrande Måleri Göteborg AB\nCheckbox\nSkånegatan 27, Göteborg\n5.0\n1 omdöme\nTelefon072-734 32 Visa\nHandelsbanken Göteborg Frölunda\nHandelsbanken Göteborg Frölunda\nCheckbox\nTopasgatan 3, Västra Frölunda\n1.0\n1 omdöme\nTelefon031-734 14 Visa\nHemsida\nHemsida\nHandelsbanken Göteborg Volvo PVB\nHandelsbanken Göteborg Volvo PVB\nCheckbox\nGustaf Larsons Väg Pvb, Göteborg\nTelefon031-92 68 Visa\nHemsida\nHemsida\nHandelsbanken Göteborg Eriksberg\nHandelsbanken Göteborg Eriksberg\nCheckbox\nKolhamnsgatan 5, Göteborg\n5.0\n2 omdömen\nTelefon031-744 16 Visa\nHemsida\nHemsida\nHandelsbanken Göteborg Sisjön\nHandelsbanken Göteborg Sisjön\nCheckbox\nHantverksvägen 15, Askim\nTelefon031-68 69 Visa\nHemsida\nHemsida\nHandelsbanken Göteborg Torslanda\nHandelsbanken Göteborg Torslanda\nCheckbox\nGamla Flygplatsvägen 44, Torslanda\n5.0\n1 omdöme\nTelefon031-65 35 Visa\nHemsida\nHemsida\nByggnova Göteborg AB\nByggnova Göteborg AB\nCheckbox\nBultgatan 11 C, Kungälv\nTelefon070-849 36 Visa\nFöretag Monika Nyander\nFöretag Monika Nyander\nFredsgatan 25, Mölndal\nTelefon031-707 38 Visa\nBerg & Larsson för Effektivare Företag AB\nBerg & Larsson för Effektivare Företag AB\nEkonomivägen 4, Askim\nTelefon031-68 22 Visa\nNordisk Företag Och Privatförsäljning\nNordisk Företag Och Privatförsäljning\nGamla Kronvägen 78, Partille\nFörsäkringar för Företag i Väst AB\nFörsäkringar för Företag i Väst AB\nCheckbox\nGymnasiegatan 6, Kungälv\nTelefon0303-72 84 Visa\nNästa\nÄr du nöjd med sökresultatet?\nDåligt\nBra\nStörre karta",
+			{
+				"entities": [
+					[70, 93, "ADDRESS"],
+					[152, 175, "ADDRESS"],
+					[277, 300, "ADDRESS"],
+					[383, 407, "ADDRESS"],
+					[532, 558, "ADDRESS"],
+					[609, 625, "ADDRESS"],
+					[802, 829, "ADDRESS"],
+					[947, 974, "ADDRESS"],
+					[1112, 1139, "ADDRESS"],
+					[1244, 1271, "ADDRESS"],
+					[1386, 1413, "ADDRESS"],
+					[1522, 1551, "ADDRESS"],
+					[1666, 1689, "ADDRESS"],
+					[1799, 1819, "ADDRESS"],
+					[2102, 2127, "ADDRESS"],
+					[2394, 2422, "ADDRESS"],
+					[2618, 2640, "ADDRESS"],
+					[2748, 2769, "ADDRESS"],
+					[2874, 2896, "ADDRESS"],
+					[2976, 3000, "ADDRESS"]
+				]
+			}
+		],
+		[
+			"Karta\nStockholm\nGrande Måleri Göteborg AB\nGrande Måleri Göteborg AB\nCheckbox\nSkånegatan 27, Göteborg\n5.0\n1 omdöme\nTelefon072-734 32 Visa\nVeterankraft Stockholm Norrort Företag\nVeterankraft Stockholm Norrort Företag\nCheckbox\nVendevägen 90 pl, Danderyd\n3.0\n2 omdömen\nTelefon077-444 88 Visa\nHemsida\nHemsida\nHello Clean AB\nHello Clean AB\nCheckbox\nScheelegatan 8, Stockholm\n5.0\n3 omdömen\nTelefon08-400 650 Visa\nBoka\nStädpulsen AB\nStädpulsen AB\nCheckbox\nTurebergsvägen 7, Sollentuna\n5.0\n1 omdöme\nTelefon077-533 30 Visa\nBoka\nThe Light Agency AB\nThe Light Agency AB\nValhallavägen 104, Stockholm\nTelefon08-510 607 Visa\nC&M Construction AB\nC&M Construction AB\nCheckbox\nStockholmsvägen 2, Enskede\n5.0\n1 omdöme\nBKR\nTelefon070-883 67 Visa\nHemsida\nHemsida\nSwedbank Företag Web\nSwedbank Företag Web\nBrunkebergstorg 8, Stockholm\n2.0\n1 omdöme\nTelefon0771-334 4 Visa\nHandelsbanken Stockholm Kungsträdgården\nHandelsbanken Stockholm Kungsträdgården\nCheckbox\nKungsträdgårdsgatan 2, Stockholm\n3.0\n3 omdömen\nTelefon08-406 69 Visa\nHemsida\nHemsida\nHandelsbanken Värmdö\nHandelsbanken Värmdö\nCheckbox\nGustavsbergs Centrum, Gustavsberg\n5.0\n1 omdöme\nTelefon08-666 41 Visa\nHemsida\nHemsida\nHandelsbanken Nacka Forum\nHandelsbanken Nacka Forum\nCheckbox\nVärmdövägen 195, Nacka\n3.0\n2 omdömen\nTelefon08-666 42 Visa\nHemsida\nHemsida\nHandelsbanken Huddinge Centrum\nHandelsbanken Huddinge Centrum\nCheckbox\nSjödalstorget 7, Huddinge\nTelefon08-556 405 Visa\nHemsida\nHemsida\nHandelsbanken Jakobsberg\nHandelsbanken Jakobsberg\nCheckbox\nRiddarplatsen 11, Järfälla\nTelefon08-584 105 Visa\nHemsida\nHemsida\nHandelsbanken Sundbyberg\nHandelsbanken Sundbyberg\nCheckbox\nLandsvägen 57, Sundbyberg\n3.0\n1 omdöme\nTelefon08-564 806 Visa\nHemsida\nHemsida\nHandelsbanken Haninge\nHandelsbanken Haninge\nCheckbox\nRudsjöterrassen 1, Handen\nTelefon08-666 42 Visa\nHemsida\nHemsida\nHandelsbanken Farsta Centrum\nHandelsbanken Farsta Centrum\nCheckbox\nStorforsplan 44 A, Farsta\n4.5\n2 omdömen\nTelefon08-407 19 Visa\nHemsida\nHemsida\nSvensk Direktreklam i Norra Stockholm\nSvensk Direktreklam i Norra Stockholm\nKuskvägen 6, Sollentuna\n1.0\n1 omdöme\nTelefon08-760 95 Visa\nHandelsbanken Stockholm Skanstull\nHandelsbanken Stockholm Skanstull\nCheckbox\nGötgatan 95, Stockholm\n4.0\n1 omdöme\nTelefon08-452 00 Visa\nHemsida\nHemsida\nHandelsbanken Stockholm Stureplan\nHandelsbanken Stockholm Stureplan\nCheckbox\nStureplan 13, Stockholm\nTelefon08-407 19 Visa\nHemsida\nHemsida\nHandelsbanken Saltsjö-Boo\nHandelsbanken Saltsjö-Boo\nCheckbox\nOrminge Centrum, Saltsjö-Boo\nTelefon08-666 40 Visa\nHemsida\nHemsida\nEkonomernas Hus AB\nEkonomernas Hus AB\nCheckbox\nTullhusgatan 1 A, Karlstad\nTelefon08-649 20 Visa\nHandelsbanken Ekerö\nHandelsbanken Ekerö\nCheckbox\nMälarö Torg 6, Ekerö\n2.5\n2 omdömen\nTelefon08-666 40 Visa\nHemsida\nHemsida\nHandelsbanken Vällingby\nHandelsbanken Vällingby\nCheckbox\nVällingby Torg 23, Vällingby\nTelefon08-633 28 Visa\nHemsida\nHemsida\nByggnadssmide AB\nByggnadssmide AB\nCheckbox\nBjörkholmsvägen 20, Huddinge\nTelefon08-94 60 Visa\nÄngby Camping & Stugor\nÄngby Camping & Stugor\nCheckbox\nBlackebergsvägen 25, Bromma\nTelefon08-37 04 Visa\nHandelsbanken Älvsjö\nHandelsbanken Älvsjö\nCheckbox\nGötalandsvägen 220, Älvsjö\n1.0\n1 omdöme\nTelefon08-556 205 Visa\nHemsida\nHemsida\nNästa\nÄr du nöjd med sökresultatet?\nDåligt\nBra\nStörre karta",
+			{
+				"entities": [
+					[77, 100, "ADDRESS"],
+					[343, 368, "ADDRESS"],
+					[448, 476, "ADDRESS"],
+					[558, 586, "ADDRESS"],
+					[659, 685, "ADDRESS"],
+					[784, 812, "ADDRESS"],
+					[938, 970, "ADDRESS"],
+					[1220, 1242, "ADDRESS"],
+					[1366, 1391, "ADDRESS"],
+					[1490, 1516, "ADDRESS"],
+					[1615, 1640, "ADDRESS"],
+					[1746, 1771, "ADDRESS"],
+					[1877, 1902, "ADDRESS"],
+					[2031, 2054, "ADDRESS"],
+					[2167, 2189, "ADDRESS"],
+					[2318, 2341, "ADDRESS"],
+					[2555, 2581, "ADDRESS"],
+					[2653, 2673, "ADDRESS"],
+					[2783, 2811, "ADDRESS"],
+					[2893, 2921, "ADDRESS"],
+					[2998, 3025, "ADDRESS"],
+					[3098, 3124, "ADDRESS"]
+				]
+			}
+		],
+		[
+			"Skytech logotype",
+			{
+				"entities": [[0, 7, "COMPANY"]]
+			}
+		],
+		[
+			"DETTA ÄR SKYTECH",
+			{
+				"entities": [[9, 16, "COMPANY"]]
+			}
+		],
+		[
+			"SkyTech är Europas största leverantör av märkning till installationer inom El, VVS och ventilation.",
+			{
+				"entities": [[0, 7, "COMPANY"]]
+			}
+		],
+		[
+			"SkyTechs modell",
+			{
+				"entities": [[0, 8, "COMPANY"]]
+			}
+		],
+		[
+			"Hållbarhet för SkyTech",
+			{
+				"entities": [[15, 22, "COMPANY"]]
+			}
+		],
+		[
+			"SkyTech utvecklar och stärker sitt arbete kontinuerligt och skapar på så sätt värden för våra kunder, leverantörer och ägare. Att vara med och bidra till utvecklingen av ett mer hållbart samhälle är del av vår strategi och leder samtidigt till fler affärsmöjligheter för våra bolag.",
+			{
+				"entities": [[0, 7, "COMPANY"]]
+			}
+		],
+		[
+			"info@skytechab.se",
+			{
+				"entities": [[0, 17, "EMAIL"]]
+			}
+		],
+		[
+			"Double Tail Mini",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Fireflake 6pcs 63,20",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Balanspirk 7cm 10g -",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Rapala Deep Tail Dancer",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Avignon Heat Max ren rosa",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Small 6\" / 15cm Watermelon",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Flätlina X8 0,13mm",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Lördag 10-15 Söndag",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Blästgatan 3 794 34 Orsa  KUNDSERVICE OM",
+			{
+				"entities": [[0, 24, "ADDRESS"]]
+			}
+		],
+		[
+			"Tanneforsvägen 41 | 582 42 Linköping",
+			{
+				"entities": [[0, 36, "ADDRESS"]]
+			}
+		],
+		[
+			"013-140334 | info@tanneforshembageri.se",
+			{
+				"entities": [[13, 39, "EMAIL"]]
+			}
+		],
+
+		[
+			"Drottninggatan 19, 641 30 Katrineholm",
+			{
+				"entities": [[0, 37, "ADDRESS"]]
+			}
+		],
+		[
+			"Asplunden (Sköldinge) Bie Björkvik",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Växthuset (Forssjö) Häringe",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Räven (Julita) Ängstugan",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Kerstinbodagatan 37 641 50 Katrineholm",
+			{
+				"entities": [[0, 38, "ADDRESS"]]
+			}
+		],
+		[
+			"Dataskyddsförordningen (GDPR)  Besök oss på Facebook Besök oss på LinkedIn Besök oss på Instagram Till toppen",
+			{
+				"entities": []
+			}
+		],
+
+		[
+			"Innehåll på sidan Kontaktuppgifter",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Stängt på förskolan  Säg",
+			{
+				"entities": []
+			}
+		],
+		[
+			"0150-572 85 eller 0150-572",
+			{
+				"entities": [[0, 11, "TEL"]]
+			}
+		],
+		[
+			"0150-573 78",
+			{
+				"entities": [[0, 11, "TEL"]]
+			}
+		],
+		[
+			"Stängt på förskolorna Förskolorna",
+			{
+				"entities": []
+			}
+		],
+		[
+			"[Adress:Vasavägen 31, 633 56 Eskilstuna ]   [Tel: 016-14 98 99]   [Vasarestaurangenochbar@gmail.com[",
+			{
+				"entities": [
+					[8, 39, "ADDRESS"],
+					[50, 62, "TEL"],
+					[67, 99, "EMAIL"]
+				]
+			}
+		],
+		[
+			"Herrögatan 31, 842 32 Sveg",
+			{
+				"entities": [[0, 26, "ADDRESS"]]
+			}
+		],
+		[
+			"0680-166 00 ",
+			{
+				"entities": [[0, 11, "TEL"]]
+			}
+		],
+		[
+			"31, 842 32 SvegLän",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Välkommen! Vad söker du idag?",
+			{
+				"entities": []
+			}
+		],
+		[
+			"Stortorget 4 831 30 Östersund",
+			{
+				"entities": [[0, 29, "ADDRESS"]]
+			}
+		],
+		[
+			"063-51 33 10",
+			{
+				"entities": [[0, 12, "TEL"]]
+			}
+		],
+		[
+			"Stortorget 4 Postnummer",
+			{
+				"entities": []
+			}
+		],
+		[
+			"063-51 33 10",
+			{
+				"entities": [[0, 12, "TEL"]]
+			}
+		],
+		[
+			"",
+			{
+				"entities": []
+			}
+		],
+		[
+			"jonaste98@hotmail.com",
+			{
+				"entities": [[0, 21, "EMAIL"]]
+			}
+		],
+		[
+			"info@skytech.com",
+			{
+				"entities": [[0, 16, "EMAIL"]]
+			}
+		],
+		[
+			"smallpaul@hotmail.com",
+			{
+				"entities": [[0, 21, "EMAIL"]]
+			}
+		],
+		[
+			"morain@mac.com",
+			{
+				"entities": [[0, 14, "EMAIL"]]
+			}
+		],
+		[
+			"report@outlook.com",
+			{
+				"entities": [[0, 18, "EMAIL"]]
+			}
+		],
+		[
+			"bdbrown@mac.com",
+			{
+				"entities": [[0, 15, "EMAIL"]]
+			}
+		],
+		[
+			"miami@outlook.com",
+			{
+				"entities": [[0, 17, "EMAIL"]]
+			}
+		],
+		[
+			"jaesenj@verizon.net",
+			{
+				"entities": [[0, 19, "EMAIL"]]
+			}
+		],
+		[
+			"sscorpio@mac.com",
+			{
+				"entities": [[0, 16, "EMAIL"]]
+			}
+		],
+		[
+			"karasik@yahoo.com",
+			{
+				"entities": [[0, 17, "EMAIL"]]
+			}
+		],
+		[
+			"jonathan@mac.com",
+			{
+				"entities": [[0, 16, "EMAIL"]]
+			}
+		],
+		[
+			"tbeck@aol.com",
+			{
+				"entities": [[0, 13, "EMAIL"]]
+			}
+		],
+		[
+			"dsowsy@msn.com",
+			{
+				"entities": [[0, 14, "EMAIL"]]
+			}
+		],
+		[
+			"starstuff@mac.com",
+			{
+				"entities": [[0, 17, "EMAIL"]]
+			}
+		],
+		[
+			"customercare@spokeo.com",
+			{
+				"entities": [[0, 23, "EMAIL"]]
+			}
+		],
+		[
+			"+46 (0) 704-76 35 36",
+			{
+				"entities": [[0, 20, "TEL"]]
+			}
+		],
+		[
+			"info@zivo.se",
+			{
+				"entities": [[0, 12, "EMAIL"]]
+			}
+		],
+		[
+			"Löfgrens Bröd och Fika AB",
+			{
+				"entities": [[0, 25, "COMPANY"]]
+			}
+		],
+		[
+			"E-post: sales@foretagstjanst.se",
+			{
+				"entities": [[8, 31, "EMAIL"]]
+			}
+		],
+		[
+			"Telefon: 070-253 64 81",
+			{
+				"entities": [[9, 22, "TEL"]]
+			}
+		],
+		[
+			"0372-78 92 00",
+			{
+				"entities": [[0, 13, "TEL"]]
+			}
+		],
+		[
+			"biblioteket@ljungby.se",
+			{
+				"entities": [[0, 22, "EMAIL"]]
+			}
+		],
+		[
+			"moniesportwear@gmail.com",
+			{
+				"entities": [[0, 24, "EMAIL"]]
+			}
+		],
+		[
+			"070-670 02 08",
+			{
+				"entities": [[0, 13, "TEL"]]
+			}
+		],
+		[
+			"070-639 02 08",
+			{
+				"entities": [[0, 13, "TEL"]]
+			}
+		],
+		[
+			"info@sydgolv.se",
+			{
+				"entities": [[0, 15, "EMAIL"]]
+			}
+		],
+		[
+			"jerry@sydgolv.se",
+			{
+				"entities": [[0, 16, "EMAIL"]]
+			}
+		],
+		[
+			"ulf@sydgolv.se",
+			{
+				"entities": [[0, 14, "EMAIL"]]
+			}
+		],
+		[
+			"0738312330",
+			{
+				"entities": [[0, 10, "TEL"]]
+			}
+		],
+		[
+			"0705080002",
+			{
+				"entities": [[0, 10, "TEL"]]
+			}
+		],
+		[
+			"ridskola@ljungbyridklubb.org.se",
+			{
+				"entities": [[0, 31, "EMAIL"]]
+			}
+		],
+		[
+			"kansli@ljungbyridklubb.org.se",
+			{
+				"entities": [[0, 29, "EMAIL"]]
+			}
+		],
+		[
+			"Rabattkoder hos Svenssons",
+			{
+				"entities": []
+			}
+		]
+	]
+}
