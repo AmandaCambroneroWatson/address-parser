@@ -1,46 +1,26 @@
 [
     {
-        "label": "TEL",
-        "text": "0472-487 32"
+        "label": "EMAIL",
+        "text": "ekonomi@halmstaddelivery.se"
     },
     {
         "label": "ADDRESS",
-        "text": "Hagagatan 9, 331 33 Värnamo"
-    },
-    {
-        "label": "ADDRESS",
-        "text": "Jönköpingsvägen 4\n363 44 Lammhult"
-    },
-    {
-        "label": "ADDRESS",
-        "text": "Industrigatan 23\n335 73 Hillerstorp"
+        "text": "Kistingevägen 6\n302 62 Halmstad"
     },
     {
         "label": "TEL",
-        "text": "0472-487 00"
+        "text": "035-18 88 81"
     },
     {
         "label": "EMAIL",
-        "text": "info@elka.se"
-    },
-    {
-        "label": "EMAIL",
-        "text": "johan@svenonius-legosvets.se"
+        "text": "info@halmstaddelivery.se"
     },
     {
         "label": "TEL",
-        "text": "+46 (0) 370 37 33"
+        "text": "08:00 – 17:00"
     },
     {
-        "label": "TEL",
-        "text": "0370-290 95 |"
-    },
-    {
-        "label": "ADDRESS",
-        "text": "Hagagatan 9\n331 33 Värnamo"
-    },
-    {
-        "label": "TEL",
-        "text": "070-860 59 73"
+        "label": "INCORRECT",
+        "text": "Måndag – Fredag"
     }
 ]

@@ -1,5 +1,13 @@
 {
-	"classes": ["ADDRESS", "TEL", "PERSON", "COMPANY", "EMAIL", "URL"],
+	"classes": [
+		"ADDRESS",
+		"TEL",
+		"PERSON",
+		"COMPANY",
+		"EMAIL",
+		"URL",
+		"INCORRECT"
+	],
 	"annotations": [
 		[
 			"Gå vidare till innehåll\nSENAB\nÖppna menyn\nTelefon 08-586 350 00\nE-post kundservice@senab.com",
@@ -273,7 +281,7 @@
 			}
 		],
 		[
-			"0150-572 85 eller 0150-572",
+			"0150-572 85",
 			{
 				"entities": [[0, 11, "TEL"]]
 			}
@@ -313,12 +321,6 @@
 			}
 		],
 		[
-			"31, 842 32 SvegLän",
-			{
-				"entities": []
-			}
-		],
-		[
 			"Välkommen! Vad söker du idag?",
 			{
 				"entities": []
@@ -337,21 +339,9 @@
 			}
 		],
 		[
-			"Stortorget 4 Postnummer",
-			{
-				"entities": []
-			}
-		],
-		[
 			"063-51 33 10",
 			{
 				"entities": [[0, 12, "TEL"]]
-			}
-		],
-		[
-			"",
-			{
-				"entities": []
 			}
 		],
 		[
@@ -547,10 +537,1011 @@
 			}
 		],
 		[
-			"Rabattkoder hos Svenssons",
+			"Ruskvädersgatan 18, Göteborg  031- 23 80 33",
 			{
-				"entities": []
+				"entities": [
+					[0, 28, "ADDRESS"],
+					[30, 43, "TEL"]
+				]
 			}
-		]
+		],
+		["info@aftonstjarnan.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["+46764007711", { "entities": [[0, 12, "TEL"]] }],
+		[
+			"TooEasy WFO\nSchema utan krångel alla moduler ingår\nHitta oss\nDanska vägen 2\n412 66 Göteborg\nKontakt\ninfo@tooeasy.se\nLogotypSynsam\nLogotypKicks LogotypActic LogotypHööks\n+46 (0) 31-335 80 00\nSantessonsgatan 1341266\n2023 – 5ans\n031-335 80 00\n",
+			{
+				"entities": [
+					[0, 60, "INCORRECT"],
+					[61, 91, "ADDRESS"],
+					[92, 99, "INCORRECT"],
+					[100, 115, "EMAIL"],
+					[116, 168, "INCORRECT"],
+					[169, 189, "TEL"],
+					[190, 213, "ADDRESS"],
+					[214, 225, "INCORRECT"],
+					[226, 239, "TEL"]
+				]
+			}
+		],
+		[
+			"Högkullsvägen 7\nSE-26377 Mölle\nSverige\n",
+			{ "entities": [[0, 38, "ADDRESS"]] }
+		],
+		["jonas.tengborg@gmail.se", { "entities": [[0, 23, "EMAIL"]] }],
+		["johan.andersson@gmail.se", { "entities": [[0, 24, "EMAIL"]] }],
+		["alfred.gunnarsson@gmail.se", { "entities": [[0, 26, "EMAIL"]] }],
+		["info@systembolaget.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["SUPPORT@FLYTT-STAD.SE", { "entities": [[0, 21, "EMAIL"]] }],
+		["010 – 160 40 70", { "entities": [[0, 15, "TEL"]] }],
+		["+46 73 – 875 09 77", { "entities": [[0, 18, "TEL"]] }],
+		["office(at)the-native-translator.com", { "entities": [[0, 35, "EMAIL"]] }],
+		["Joakim Lundberg", { "entities": [[0, 15, "PERSON"]] }],
+		["0321-262 71", { "entities": [[0, 11, "TEL"]] }],
+		["joakim@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Uwe Mirsch", { "entities": [[0, 10, "PERSON"]] }],
+		["0321-26278", { "entities": [[0, 10, "TEL"]] }],
+		["uwe@bogesundsel.se", { "entities": [[0, 18, "EMAIL"]] }],
+		["Peter Claesson", { "entities": [[0, 14, "PERSON"]] }],
+		["0321-262 75", { "entities": [[0, 11, "TEL"]] }],
+		["peter@bogesundsel.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["David Johansson", { "entities": [[0, 15, "PERSON"]] }],
+		["0321-262 76", { "entities": [[0, 11, "TEL"]] }],
+		["david@bogesundsel.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["Marcus Frilander", { "entities": [[0, 16, "PERSON"]] }],
+		["0321-26273", { "entities": [[0, 10, "TEL"]] }],
+		["marcus@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Henrik Gustafsson", { "entities": [[0, 17, "PERSON"]] }],
+		["0321-26272", { "entities": [[0, 10, "TEL"]] }],
+		["henrik.gustafsson@bogesundsel.se", { "entities": [[0, 32, "EMAIL"]] }],
+		["Rickard Liljeros", { "entities": [[0, 16, "PERSON"]] }],
+		["0321-26279", { "entities": [[0, 10, "TEL"]] }],
+		["rickard@bogesundsel.se", { "entities": [[0, 22, "EMAIL"]] }],
+		["Anitha Carlsson Törnqvist", { "entities": [[0, 25, "PERSON"]] }],
+		["0321-26274", { "entities": [[0, 10, "TEL"]] }],
+		["anitha@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Andreas Friberg", { "entities": [[0, 15, "PERSON"]] }],
+		["0706-472977", { "entities": [[0, 11, "TEL"]] }],
+		["andreas@bogesundsel.se", { "entities": [[0, 22, "EMAIL"]] }],
+		["Andreas Thorné", { "entities": [[0, 14, "PERSON"]] }],
+		["0702-303945", { "entities": [[0, 11, "TEL"]] }],
+		["andreas.thorne@bogesundsel.se", { "entities": [[0, 29, "EMAIL"]] }],
+		["Anton Jansson", { "entities": [[0, 13, "PERSON"]] }],
+		["0730-858621", { "entities": [[0, 11, "TEL"]] }],
+		["anton@bogesundsel.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["Joel Bäckman", { "entities": [[0, 12, "PERSON"]] }],
+		["0730-858773", { "entities": [[0, 11, "TEL"]] }],
+		["joel@bogesundsel.se", { "entities": [[0, 19, "EMAIL"]] }],
+		["Johannes Börjesson", { "entities": [[0, 18, "PERSON"]] }],
+		["0702-303947", { "entities": [[0, 11, "TEL"]] }],
+		["johannes@bogesundsel.se", { "entities": [[0, 23, "EMAIL"]] }],
+		["Magnus Andersson", { "entities": [[0, 16, "PERSON"]] }],
+		["0703-499256", { "entities": [[0, 11, "TEL"]] }],
+		["magnus@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Niklas Henriksson", { "entities": [[0, 17, "PERSON"]] }],
+		["0703-546286", { "entities": [[0, 11, "TEL"]] }],
+		["niklas@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Roger Wilhelmsson", { "entities": [[0, 17, "PERSON"]] }],
+		["0702-303949", { "entities": [[0, 11, "TEL"]] }],
+		["roger@bogesundsel.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["Sebastian Gustafsson", { "entities": [[0, 20, "PERSON"]] }],
+		["0707-791549", { "entities": [[0, 11, "TEL"]] }],
+		["sebastian@bogesundsel.se", { "entities": [[0, 24, "EMAIL"]] }],
+		["Andreas Everding / Borås filial", { "entities": [[0, 16, "PERSON"]] }],
+		["033-132370", { "entities": [[0, 10, "TEL"]] }],
+		["andreas.everding@bogesundsel.se", { "entities": [[0, 31, "EMAIL"]] }],
+		["Christoph Unger / Borås filial", { "entities": [[0, 15, "PERSON"]] }],
+		["033-132370", { "entities": [[0, 10, "TEL"]] }],
+		["christoph@bogesundsel se", { "entities": [[0, 24, "EMAIL"]] }],
+		["Håkan Johansson / Borås filial", { "entities": [[0, 15, "PERSON"]] }],
+		["033-132370", { "entities": [[0, 10, "TEL"]] }],
+		["hakan@bogesundsel.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["Jimmy Hultgren / Borås filial", { "entities": [[0, 14, "PERSON"]] }],
+		["033-132370", { "entities": [[0, 10, "TEL"]] }],
+		["jimmy@bogesundsel.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["Aleksandr Suvorov", { "entities": [[0, 17, "PERSON"]] }],
+		["0703-406270", { "entities": [[0, 11, "TEL"]] }],
+		["aleksandr@bogesundsel.se", { "entities": [[0, 24, "EMAIL"]] }],
+		["Andreas Kilén", { "entities": [[0, 13, "PERSON"]] }],
+		["0702-584814", { "entities": [[0, 11, "TEL"]] }],
+		["andreas.kilen@bogesundsel.se", { "entities": [[0, 28, "EMAIL"]] }],
+		["Arvid Larsson", { "entities": [[0, 13, "PERSON"]] }],
+		["0730-858291", { "entities": [[0, 11, "TEL"]] }],
+		["arvid@bogesundsel.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["Clas Ragnarsson", { "entities": [[0, 15, "PERSON"]] }],
+		["0706-726270", { "entities": [[0, 11, "TEL"]] }],
+		["clas@bogesundsel.se", { "entities": [[0, 19, "EMAIL"]] }],
+		["Daniel Claesson", { "entities": [[0, 15, "PERSON"]] }],
+		["0730-525662", { "entities": [[0, 11, "TEL"]] }],
+		["daniel.claesson@bogesundsel.se", { "entities": [[0, 30, "EMAIL"]] }],
+		["Daniel Lorentzon", { "entities": [[0, 16, "PERSON"]] }],
+		["0702-627976", { "entities": [[0, 11, "TEL"]] }],
+		["daniel.lorentzon@bogesundsel.se", { "entities": [[0, 31, "EMAIL"]] }],
+		["Emil Friberg", { "entities": [[0, 12, "PERSON"]] }],
+		["0702-303942", { "entities": [[0, 11, "TEL"]] }],
+		["emil.friberg@bogesundsel.se", { "entities": [[0, 27, "EMAIL"]] }],
+		["Emil Frilander", { "entities": [[0, 14, "PERSON"]] }],
+		["0702-303946", { "entities": [[0, 11, "TEL"]] }],
+		["emil.frilander@bogesundsel.se", { "entities": [[0, 29, "EMAIL"]] }],
+		["Fabian Bernvill", { "entities": [[0, 15, "PERSON"]] }],
+		["0735-085434", { "entities": [[0, 11, "TEL"]] }],
+		["fabian@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Gabriel Andersson", { "entities": [[0, 17, "PERSON"]] }],
+		["0702-851597", { "entities": [[0, 11, "TEL"]] }],
+		["gabriel@bogesundsel.se", { "entities": [[0, 22, "EMAIL"]] }],
+		["Gabriel Persson", { "entities": [[0, 15, "PERSON"]] }],
+		["0703-726270", { "entities": [[0, 11, "TEL"]] }],
+		["gabriel.persson@bogesundsel.se", { "entities": [[0, 30, "EMAIL"]] }],
+		["Hampus Björklund", { "entities": [[0, 16, "PERSON"]] }],
+		["0730-914402", { "entities": [[0, 11, "TEL"]] }],
+		["hampus@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Jonathan Frilander", { "entities": [[0, 18, "PERSON"]] }],
+		["0703-026270", { "entities": [[0, 11, "TEL"]] }],
+		["jonathan@bogesundsel.se", { "entities": [[0, 23, "EMAIL"]] }],
+		["Lars Gustafsson", { "entities": [[0, 15, "PERSON"]] }],
+		["0702-962096", { "entities": [[0, 11, "TEL"]] }],
+		["lars@bogesundsel.se", { "entities": [[0, 19, "EMAIL"]] }],
+		["Lennart Axelsson", { "entities": [[0, 16, "PERSON"]] }],
+		["0730-858375", { "entities": [[0, 11, "TEL"]] }],
+		["lennart@bogesundsel.se", { "entities": [[0, 22, "EMAIL"]] }],
+		["Linus Isacsson", { "entities": [[0, 14, "PERSON"]] }],
+		["0720-238659", { "entities": [[0, 11, "TEL"]] }],
+		["linus.isacsson@bogesundsel.se", { "entities": [[0, 29, "EMAIL"]] }],
+		["Martin Kling", { "entities": [[0, 12, "PERSON"]] }],
+		["0706-551844", { "entities": [[0, 11, "TEL"]] }],
+		["martin@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Rasmus Karlsson", { "entities": [[0, 15, "PERSON"]] }],
+		["0762-729476", { "entities": [[0, 11, "TEL"]] }],
+		["rasmus@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Robert Axelson", { "entities": [[0, 14, "PERSON"]] }],
+		["0705-926270", { "entities": [[0, 11, "TEL"]] }],
+		["robert.axelson@bogesundsel.se", { "entities": [[0, 29, "EMAIL"]] }],
+		["Wilhelm Hellstrand", { "entities": [[0, 18, "PERSON"]] }],
+		["0735-904540", { "entities": [[0, 11, "TEL"]] }],
+		["wilhelm@bogesundsel.se", { "entities": [[0, 22, "EMAIL"]] }],
+		["Philip Mentu", { "entities": [[0, 12, "PERSON"]] }],
+		["0735-609417", { "entities": [[0, 11, "TEL"]] }],
+		["philip@bogesundsel.se", { "entities": [[0, 21, "EMAIL"]] }],
+		["Olof Håkansson", { "entities": [[0, 14, "PERSON"]] }],
+		["0767-212618", { "entities": [[0, 11, "TEL"]] }],
+		["olof@bogesundsel.se", { "entities": [[0, 19, "EMAIL"]] }],
+		["+46 76 666 23 85", { "entities": [[0, 16, "TEL"]] }],
+		["+46 70 820 40 06", { "entities": [[0, 16, "TEL"]] }],
+		["ingrid.sandberg@wtools.se", { "entities": [[0, 25, "EMAIL"]] }],
+		["+46 76 016 11", { "entities": [[0, 13, "TEL"]] }],
+		["niklas.antonsson@wtools.se", { "entities": [[0, 26, "EMAIL"]] }],
+		["Niklas Antonsson", { "entities": [[0, 16, "PERSON"]] }],
+		["Johannes Johansson", { "entities": [[0, 18, "PERSON"]] }],
+		["Christian Lindström", { "entities": [[0, 19, "PERSON"]] }],
+		["Blädingevägen 17, 342 32 Alvesta", { "entities": [[0, 32, "ADDRESS"]] }],
+		["0472080448_20472080448_115%", { "entities": [[0, 27, "INCORRECT"]] }],
+		["Hoppa över Än", { "entities": [[0, 13, "INCORRECT"]] }],
+		["0210000062_20210000062_115%", { "entities": [[0, 27, "INCORRECT"]] }],
+		["Vandagatan 3  164 74 Kista", { "entities": [[0, 26, "ADDRESS"]] }],
+		["031-10 69 65  ", { "entities": [[0, 12, "TEL"]] }],
+		["Kontakt", { "entities": [[0, 7, "INCORRECT"]] }],
+		["Mån-tors kl 9.00-22.00", { "entities": [[0, 22, "INCORRECT"]] }],
+		["Juelsgatan 5  254 42 Helsingborg", { "entities": [[0, 32, "ADDRESS"]] }],
+		["031-10 69 67", { "entities": [[0, 12, "TEL"]] }],
+		["Kopparbergsgatan 8, 214 44 Malmö", { "entities": [[0, 32, "ADDRESS"]] }],
+		["079 - 065 41 00", { "entities": [[0, 15, "TEL"]] }],
+		["018-418 08 14", { "entities": [[0, 13, "TEL"]] }],
+		["08-730 00 93", { "entities": [[0, 12, "TEL"]] }],
+		["040-655 85 05", { "entities": [[0, 13, "TEL"]] }],
+		["Kopparbergsgatan 8  214 44 Malmö", { "entities": [[0, 32, "ADDRESS"]] }],
+		["Rapsgatan 8  75450 Uppsala", { "entities": [[0, 26, "ADDRESS"]] }],
+		["Kraftlinjegatan 4  72136", { "entities": [[0, 24, "ADDRESS"]] }],
+		[
+			"Helger kl 10.00-20.00  Avvikelser",
+			{ "entities": [[0, 33, "INCORRECT"]] }
+		],
+		["Hamngatan 37  ", { "entities": [[0, 12, "ADDRESS"]] }],
+		["Klättercentret logo SOLNA", { "entities": [[0, 25, "INCORRECT"]] }],
+		["Klättercentret? Läs mer", { "entities": [[0, 23, "INCORRECT"]] }],
+		[
+			"\nBUTIKER\nRESTAURANGER\nSERVICE\nÖPPETTIDER\nKONTAKT OCH FRÅGOR & SVAR\nHITTA HIT\nHitta hitHem Hitta hit\nHitta hit\nDu når oss enkelt med buss nummer 5 samt buss nummer 33. Kommer du med buss 35, så når du oss från närmsta hållplats ca 300 m från Rosengård Centrum\n\nKommer du med bil betalar du för parkering mellan 22:30-05:30 varje dag. Övrig tid är det 2 h P-skiva. Tänk på att det finns en del reserverade platser, här krävs det speciellt tillstånd av parkeringsbolag för att stå på.\n\nBesöksadresser till Rosengård Centrum:\n\nRosengård Centrum: Norra ingången vid Bazaar Food\nFrölichs väg 1\n\n213 68  Malmö\n\nRosengård Centrum: Södra delen men Östra ingången\nFrölichs väg 7\n\n213 68  Malmö\n\nRosengård Centrum: Södra ingången vid nya biblioteket\nDicksons väg 6\n\n213 68  Malmö\n\n\nThis page can't load Google Maps correctly.\nDo you own this website?\tOK\nVälkommen till ett annorlunda köpcenter!\n\nTrianon\nTrianon är fastighetsbolaget som äger, förvaltar, utvecklar samt bygger bostäder och kommersiella fastigheter i Malmö. Rosengård Centrum ägs av Trianon och Fastighets AB Hemmaplan. Ambitionen är att tillsammans vidareutveckla befintliga och nya satsningar i Rosengård Centrum.\n\nwww.trianon.se\nTrianon\nHemmaplan utvecklar och förvaltar centrumfastigheter och mötesplatser i stadsdelar präglade av socioekonomiska utmaningar, för att därigenom driva positiv samhällsutveckling.\n\nwww.dinhemmaplan.se\n(C) Copyright Fastighets AB Trianon\n",
+			{
+				"entities": [
+					[573, 602, "ADDRESS"],
+					[654, 683, "ADDRESS"],
+					[739, 768, "ADDRESS"],
+					[1037, 1062, "COMPANY"],
+					[1171, 1185, "URL"],
+					[1370, 1389, "URL"],
+					[1404, 1425, "COMPANY"]
+				]
+			}
+		],
+
+		[
+			"Thomsonsvaeg 1, 213 73 Malmö, Sverige",
+			{ "entities": [[0, 37, "ADDRESS"]] }
+		],
+		[
+			"Våra bilar täcker ett spektrum av smaker som innebär att du har stor chans att hitta just din hyrbil i Malmö. Kanske vill du ha en cabriolet eller sportbil för fartfyllda resor under soliga sommardagar? Då har vi rätt bil för dig. Eller föredrar du en minibuss för större sällskap? Det kan vi förse dig med också. Målet är att vi ska ha en bil för alla dina behov när du vill hyra bil i Malmö, oavsett om du är ensam på affärsresa eller på semester med famijen. Med våra tilläggstjänster som GPS blir det ännu enklare och roligare att hyra bil i Malmö. Vi på Sixt tar gärna emot dig på vår biluthyrning i Malmö om du har några frågor.",
+			{ "entities": [] }
+		],
+		["Visa mer", { "entities": [] }],
+		["Bra att veta när du hyr bil på Malmö", { "entities": [] }],
+		["Vad är åldersgränsen för att hyra bil på Malmö?", { "entities": [] }],
+		[
+			"För att hyra en bil hos SIXT på Malmö så måste du vara minst 19 och ha ett giltigt körkort. Vissa fordonstyper har en högre åldersgräns, och en föraravgift för yngre förare kan tillkomma.",
+			{ "entities": [] }
+		],
+		[
+			"Kan jag ändra, förlänga eller avbeställa min bokning?",
+			{ "entities": [] }
+		],
+		[
+			"Hos SIXT kan du antingen betala online eller när du hämtar din bil i Malmö.",
+			{ "entities": [] }
+		],
+		[
+			"Vilka handlingar behöver jag för att hyra bil på Malmö?",
+			{ "entities": [] }
+		],
+		[
+			"Du måste ha haft körkort i minst 1 år (beroende på fordonstyp). Du kan också behöva ett internationellt körkort, eller en officiell översättning av ditt körkort.",
+			{ "entities": [] }
+		],
+		["Visa alla vanliga frågor", { "entities": [] }],
+		["Kundrecensioner och feedback", { "entities": [] }],
+		["4,9", { "entities": [] }],
+		["En sammanställning av 186 omdömen", { "entities": [] }],
+		["Återlämningen av bilen", { "entities": [] }],
+		["(5,0)", { "entities": [] }],
+		["På SIXT-kontoret", { "entities": [] }],
+		["(5,0)", { "entities": [] }],
+		["Service under och efter uthyrningen", { "entities": [] }],
+		["(5,0)", { "entities": [] }],
+		["Vanliga frågor om hyrbilar på Malmö", { "entities": [] }],
+		["Kan jag boka en bil för en längre tid på Malmö?", { "entities": [] }],
+		[
+			"Boka enkelt en bil under en längre tid på Malmö genom att ange resedatum och plats(er) för hämtning/återlämning.",
+			{ "entities": [] }
+		],
+		[
+			"Behöver jag köpa till försäkringsskydd för min hyrbil på Malmö?",
+			{ "entities": [] }
+		],
+		[
+			"En vagnskadeförsäkring ingår när du hyr en bil. Du kan lägga till andra försäkringsskydd för att minska självrisken.",
+			{ "entities": [] }
+		],
+		[
+			"Kan jag lägga till en extra förare till min bokning?",
+			{ "entities": [] }
+		],
+		[
+			"Vid behov kan du lägga till extra förare som tillval till din bokning.",
+			{ "entities": [] }
+		],
+		["Check out our nearby locations to Malmö", { "entities": [] }],
+		["Danmark/Delivery Service", { "entities": [] }],
+		["København City Vesterport", { "entities": [] }],
+		["København Dragor", { "entities": [] }],
+		["Köpenhamn Flygplats", { "entities": [] }],
+		["Lund Centralstation", { "entities": [] }],
+		["Lund/BMW", { "entities": [] }],
+		["Malmö Centralstation", { "entities": [] }],
+		["Malmö Sturup Flygplats", { "entities": [] }],
+		["Home", { "entities": [] }],
+		["Worldwide", { "entities": [] }],
+		["Sverige", { "entities": [] }],
+		["Malmö", { "entities": [] }],
+		["Malmö", { "entities": [] }],
+		["Site Navigation", { "entities": [] }],
+		["SIXTs tjänster", { "entities": [] }],
+		["Biluthyrning", { "entities": [] }],
+		["Lastbilsuthyrning", { "entities": [] }],
+		["Biluthyrning", { "entities": [] }],
+		["Sixt Leasing", { "entities": [] }],
+		["Sixt för företag", { "entities": [] }],
+		["Hjälp & övrigt", { "entities": [] }],
+		["Uthyrningsinformation", { "entities": [] }],
+		["Miljöpolicy", { "entities": [] }],
+		["Follow us", { "entities": [] }],
+		["© SIXT 2023", { "entities": [] }],
+		["Site Legal Links", { "entities": [] }],
+		["Kontakt", { "entities": [] }],
+		["Nyheter", { "entities": [] }],
+		["Villkor", { "entities": [] }],
+		["Uthyrningsinformation", { "entities": [] }],
+		["Företagsinformation", { "entities": [] }],
+		["Integritets- och cookiepolicy", { "entities": [] }],
+		["Franchise", { "entities": [] }],
+		["Företagens sociala ansvar", { "entities": [] }],
+		[
+			"Säkring av gravsten | Trygg Entreprenad AB",
+			{ "entities": [[22, 42, "COMPANY"]] }
+		],
+		[
+			"GravstenssäkerhetKyrkogårdsbelysningEntreprenadSten & bildhuggeriOm ossNyheterKontakta ossReferenser",
+			{ "entities": [] }
+		],
+		[
+			"Är det dags för inventering av era kyrkogårdar enkl CGK?",
+			{ "entities": [] }
+		],
+		[
+			"Vi har inventerat och säkrat 80.000 gravstenar i Sverige & Danmark!",
+			{ "entities": [] }
+		],
+		["Säkring av gravsten med 25 års garanti", { "entities": [] }],
+		["Gravstenssäkerhet", { "entities": [] }],
+		[
+			"Vi erbjuder som enda företag inom branschen en komplett 25-års garanti som täcker även påverkan från rötter, växtlighet och …",
+			{ "entities": [] }
+		],
+		["Läs mer", { "entities": [] }],
+		["Vi erbjuder belysning av kyrkor och kyrkogårdar", { "entities": [] }],
+		["Kyrkogårdsbelysning", { "entities": [] }],
+		[
+			"Funderar ni själva på ny eller uppgradering av er befintliga belysning av kyrkor och kyrkogårdar? Boka en kostnadsfri demonstration …",
+			{ "entities": [] }
+		],
+		["Läs mer", { "entities": [] }],
+		[
+			"Vi erbjuder renovering av kallmur -Trygg AB",
+			{ "entities": [[34, 43, "COMPANY"]] }
+		],
+		["Murar", { "entities": [] }],
+		[
+			"Vi har stor erfarenhet på totalentreprenader av renoveringsuppdrag på kulturhistoriska bruks och kallmurar.",
+			{ "entities": [] }
+		],
+		["Läs mer", { "entities": [] }],
+		[
+			"Vi erbjuder renovering av järnstaket - Kyrkoantikvarisk ersättning",
+			{ "entities": [] }
+		],
+		["Järnstaket", { "entities": [] }],
+		[
+			"Järnstakets renoveringar är mycket uppskattat av allmänheten och har en positiv påverkan på helhets intrycket av er kyrkogård samt …",
+			{ "entities": [] }
+		],
+		["Läs mer", { "entities": [] }],
+		[
+			"Trappor och handikapp ramper - Säkring av gravsten & kyrkoantikvarisk ersättning",
+			{ "entities": [] }
+		],
+		["Trappor och Handikapp ramper", { "entities": [] }],
+		[
+			"Trygg Entreprenad AB är huvudentreprenör för renoveringar och nybyggnation av trappor och handikapp ramper.  Vi sköter hela …",
+			{ "entities": [[0, 20, "COMPANY"]] }
+		],
+		["Läs mer", { "entities": [] }],
+		["Sten & Bildhuggeri - Belysning av kyrkor", { "entities": [] }],
+		["Sten & Bildhuggeri", { "entities": [] }],
+		[
+			"Vi har vårt eget stenhuggeri och smidesverkstad i Tallinn, Estland som drivs av vår mycket erfarna danska stenhuggare och smed. …",
+			{ "entities": [] }
+		],
+		["Läs mer", { "entities": [] }],
+		["Senaste Nytt", { "entities": [] }],
+		[
+			"Nyhet: Funderar ni på ny eller uppgradering av er befintliga belysning av er kyrkor och kyrkogårdar?",
+			{ "entities": [] }
+		],
+		["2021-05-07", { "entities": [] }],
+		[
+			"Funderar ni på ny eller uppgradering av er befintliga belysning av er kyrkor och kyrkogårdar?",
+			{ "entities": [] }
+		],
+		[
+			"Boka en kostnadsfri demonstration med vår Ljuskonsulent Lisette som kan visa er alla möjligheter som finns.",
+			{ "entities": [] }
+		],
+		["Läs mer", { "entities": [] }],
+		["Nyhet: Trygg i Falköpings tidning", { "entities": [] }],
+		["2021-06-21", { "entities": [] }],
+		["Trygg i Falköpings tidning", { "entities": [] }],
+		[
+			"540 gravstenar på S:t Olof måste åtgärdas – 600 kilo tung sten stod osäkrad En lutande 600 kilo tung gravsten stod osäkrad och …",
+			{ "entities": [] }
+		],
+		["Läs mer", { "entities": [] }],
+		[
+			"Nyhet: Trygg vinner Folkungabygdens årliga upphandling av gravstenssäkring för 2021",
+			{ "entities": [] }
+		],
+		["2021-05-03", { "entities": [] }],
+		[
+			"Trygg vinner Folkungabygdens årliga upphandling av gravstenssäkring för 2021",
+			{ "entities": [] }
+		],
+		[
+			"Efter att ha vunnit upphandling av Folkungabygdens pastorat årliga säkrings uppdrag med gott genomfört uppdrag under 2020 var det …",
+			{ "entities": [] }
+		],
+		["Läs mer", { "entities": [] }],
+		["Vad säger våra kunder om oss", { "entities": [] }],
+		["Vårt team", { "entities": [] }],
+		[
+			"Andreas Sundbom - Vi erbjuder säkring av gravsten",
+			{ "entities": [[0, 15, "PERSON"]] }
+		],
+		["Andreas Sundbom", { "entities": [[0, 15, "PERSON"]] }],
+		[
+			"VD, Gravstensäkerhet, Entreprenad, Underhåll och Ekonomi",
+			{ "entities": [] }
+		],
+		["Andreas Sundbom", { "entities": [[0, 15, "PERSON"]] }],
+		["andreas@tryggsten.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["070-2863559", { "entities": [[0, 11, "TEL"]] }],
+		[
+			"Lisette Jespersen - Vi erbjuder renovering av kallmur",
+			{ "entities": [[0, 17, "PERSON"]] }
+		],
+		["Lisette Jespersen", { "entities": [[0, 17, "PERSON"]] }],
+		["Kyrkogårdsbelysning", { "entities": [] }],
+		["Lisette Jespersen", { "entities": [[0, 17, "PERSON"]] }],
+		["lisette@tryggsten.se", { "entities": [[0, 20, "EMAIL"]] }],
+		["073-5445667", { "entities": [[0, 11, "TEL"]] }],
+		[
+			"Brian Sibola - Kyrkoantikvarisk ersättning",
+			{ "entities": [[0, 12, "PERSON"]] }
+		],
+		["Brian Sibola", { "entities": [[0, 12, "PERSON"]] }],
+		["Sten och bildhuggeri samt smide", { "entities": [] }],
+		["Brian Sibola", { "entities": [[0, 12, "PERSON"]] }],
+		["brian@tryggsten.dk", { "entities": [[0, 18, "EMAIL"]] }],
+		["+45 501 98 398", { "entities": [[0, 14, "TEL"]] }],
+		["Vi är medlemar i", { "entities": [] }],
+		["Anmälan Nyhetsbrev", { "entities": [] }],
+		["Vill du då ta del av våran nyhetsbrev?", { "entities": [] }],
+		["Anmäl er nedanför.", { "entities": [] }],
+		["Ange mailadress", { "entities": [] }],
+		["Prenumerera", { "entities": [] }],
+		["TRYGG", { "entities": [] }],
+		[" andreas@tryggsten.se", { "entities": [[1, 21, "EMAIL"]] }],
+		["070-2863559", { "entities": [[0, 11, "TEL"]] }],
+		["Hemsida & Design av Intendit Webbyrå", { "entities": [] }],
+		[" CN Färgcenter", { "entities": [[1, 14, "INCORRECT"]] }],
+		["CN Färg, mer än en färgbutik", { "entities": [[0, 28, "INCORRECT"]] }],
+		[
+			"Vi har koll på allting från tapet, kakel & klinker, badrum och golv. Professionell personal som vet vad de talar om är en viktig ​​pusselbit hos oss på CN färgcenter.",
+			{ "entities": [[0, 166, "INCORRECT"]] }
+		],
+		["​Öppetider:", { "entities": [[0, 11, "INCORRECT"]] }],
+		["Måndag - Fredag: 07-18", { "entities": [[0, 22, "INCORRECT"]] }],
+		["Lördag: 09-14", { "entities": [[0, 13, "INCORRECT"]] }],
+		["​Kontakt:", { "entities": [[0, 9, "INCORRECT"]] }],
+		[
+			"Tel: 0411-659 50",
+			{
+				"entities": [
+					[0, 4, "INCORRECT"],
+					[5, 16, "TEL"]
+				]
+			}
+		],
+		[
+			"E-mail: info@cnfargcenter.se",
+			{
+				"entities": [
+					[0, 7, "INCORRECT"],
+					[8, 28, "EMAIL"]
+				]
+			}
+		],
+		["Hitta till oss", { "entities": [[0, 14, "INCORRECT"]] }],
+		[
+			"Flügger färg butik är ingen vanlig färghandel",
+			{ "entities": [[0, 45, "INCORRECT"]] }
+		],
+		[
+			"​Det är nämligen ingen tillfällighet att du i våra skyltfönster och annonser finner en stiliserad målare. Flügger har alltid varit måleriets leverantör nr 1.​",
+			{ "entities": [[0, 158, "INCORRECT"]] }
+		],
+		[
+			"Hos oss får du även hjälp med att välja den bäst lämpade produkten och de rätta verktygen – så att du kan vara säker på att du får ett bra resultat.",
+			{ "entities": [[0, 148, "INCORRECT"]] }
+		],
+		[
+			"Här hyr ni någon utav våra maskiner",
+			{ "entities": [[0, 35, "INCORRECT"]] }
+		],
+		[
+			"Klicka på knappen för att boka några av våra maskiner via BokaDirekt.",
+			{ "entities": [[0, 69, "INCORRECT"]] }
+		],
+		["Hyr maskin", { "entities": [[0, 10, "INCORRECT"]] }],
+		["Våra produkter", { "entities": [[0, 14, "INCORRECT"]] }],
+		[
+			"​Hos oss får du hjälp med att välja den bäst lämpade produkten och de rätta verktygen – så att du kan vara säker på att du får ett bra resultat.",
+			{ "entities": [[0, 144, "INCORRECT"]] }
+		],
+
+		["Kontakta oss", { "entities": [[0, 12, "INCORRECT"]] }],
+		[
+			"Går ni i renoveringstankar? Tveka inte att kontakta oss. Har ni just renoverat färdigt, skicka in en bild så får ni en trisslott för besväret.",
+			{ "entities": [[0, 142, "INCORRECT"]] }
+		],
+		["Följ oss på Instagram", { "entities": [[0, 21, "INCORRECT"]] }],
+		["Kontakta oss", { "entities": [[0, 12, "INCORRECT"]] }],
+		["Namn", { "entities": [[0, 4, "INCORRECT"]] }],
+		["Telefon", { "entities": [[0, 7, "INCORRECT"]] }],
+		["E-postadress", { "entities": [[0, 12, "INCORRECT"]] }],
+		["Meddelande", { "entities": [[0, 10, "INCORRECT"]] }],
+		["14 + 14 =", { "entities": [[0, 9, "INCORRECT"]] }],
+		["Skicka", { "entities": [[0, 6, "INCORRECT"]] }],
+		["Företagsinformation", { "entities": [[0, 19, "INCORRECT"]] }],
+		["Flügger Färg CN Färgcenter", { "entities": [[0, 26, "INCORRECT"]] }],
+		["Org nr.: 556371-8898", { "entities": [[0, 20, "INCORRECT"]] }],
+		["Kontakt", { "entities": [[0, 7, "INCORRECT"]] }],
+		[
+			"Telefon: 0411-659 50",
+			{
+				"entities": [
+					[0, 8, "INCORRECT"],
+					[9, 20, "TEL"]
+				]
+			}
+		],
+		[
+			"E-mail: info@cnfargcenter.se",
+			{
+				"entities": [
+					[0, 7, "INCORRECT"],
+					[8, 28, "EMAIL"]
+				]
+			}
+		],
+		["Öppetider", { "entities": [] }],
+		["Måndag - Fredag: 07-18", { "entities": [[0, 22, "INCORRECT"]] }],
+		["Lördag: 09-14", { "entities": [[0, 13, "INCORRECT"]] }],
+		[
+			" Created and hosted by Mortensen Media",
+			{ "entities": [[1, 38, "INCORRECT"]] }
+		],
+		[
+			"Telefon: 0411-162 45",
+			{
+				"entities": [
+					[0, 8, "INCORRECT"],
+					[9, 20, "TEL"]
+				]
+			}
+		],
+		[" Logga in", { "entities": [[0, 10, "INCORRECT"]] }],
+		["shopping_cart Varukorg (0)", { "entities": [[0, 26, "INCORRECT"]] }],
+		["rchobbysyd.nu", { "entities": [[0, 13, "URL"]] }],
+		["MODELLER", { "entities": [[0, 8, "INCORRECT"]] }],
+		["TILLBEHÖR", { "entities": [[0, 9, "INCORRECT"]] }],
+		["RESERVDELAR", { "entities": [[0, 11, "INCORRECT"]] }],
+		["LEK", { "entities": [[0, 3, "INCORRECT"]] }],
+		["TEAM C SHOP", { "entities": [[0, 11, "INCORRECT"]] }],
+		["REA", { "entities": [[0, 3, "INCORRECT"]] }],
+		["search", { "entities": [[0, 6, "INCORRECT"]] }],
+		["Sök i vår katalog", { "entities": [[0, 17, "INCORRECT"]] }],
+		["VÄLKOMMEN!", { "entities": [[0, 10, "INCORRECT"]] }],
+		[
+			"OBS! För att kunna ge bästa service i vår butik i Ystad tar vi endast emot bokade besök!",
+			{ "entities": [[0, 88, "INCORRECT"]] }
+		],
+		["Boka besök i butiken", { "entities": [[0, 20, "INCORRECT"]] }],
+		["POPULÄRA PRODUKTER", { "entities": [[0, 18, "INCORRECT"]] }],
+		[
+			"JC Pressure Points - Green compound 2,2 x 3,0 par Snabbvy",
+			{ "entities": [[0, 58, "INCORRECT"]] }
+		],
+		["JC Pressure Points - Green...", { "entities": [[0, 29, "INCORRECT"]] }],
+		["259,00 kr", { "entities": [[0, 9, "INCORRECT"]] }],
+		[
+			"Combat Drone Twin Pack 2,4GHz RTF Snabbvy",
+			{ "entities": [[0, 42, "INCORRECT"]] }
+		],
+		["Combat Drone Twin Pack...", { "entities": [[0, 25, "INCORRECT"]] }],
+		["929,00 kr 743,20 kr", { "entities": [[0, 19, "INCORRECT"]] }],
+		["−20%", { "entities": [[0, 4, "INCORRECT"]] }],
+		["SLUT I LAGER", { "entities": [[0, 12, "INCORRECT"]] }],
+		[
+			"Closed Cell Foam 1:10 buggy(2) 2wd front Snabbvy",
+			{ "entities": [[0, 49, "INCORRECT"]] }
+		],
+		["Closed Cell Foam 1:10 Buggy...", { "entities": [[0, 30, "INCORRECT"]] }],
+		["119,00 kr 59,50 kr", { "entities": [[0, 18, "INCORRECT"]] }],
+		["−50%", { "entities": [[0, 4, "INCORRECT"]] }],
+		[" Snabbvy", { "entities": [[0, 9, "INCORRECT"]] }],
+		["Bionic Li-Po Flight 30C...", { "entities": [[0, 26, "INCORRECT"]] }],
+		["154,00 kr 77,00 kr", { "entities": [[0, 18, "INCORRECT"]] }],
+		["PÅ REA!", { "entities": [[0, 7, "INCORRECT"]] }],
+		["−50%", { "entities": [[0, 4, "INCORRECT"]] }],
+		[" Snabbvy", { "entities": [[0, 9, "INCORRECT"]] }],
+		["Bionic Li-Po Flight 30C...", { "entities": [[0, 26, "INCORRECT"]] }],
+		["106,00 kr 53,00 kr", { "entities": [[0, 18, "INCORRECT"]] }],
+		["PÅ REA!", { "entities": [[0, 7, "INCORRECT"]] }],
+		["−50%", { "entities": [[0, 4, "INCORRECT"]] }],
+		[
+			"7000CPS Silicone Differential Oil Snabbvy",
+			{ "entities": [[0, 42, "INCORRECT"]] }
+		],
+		["7000CPS Silicone...", { "entities": [[0, 19, "INCORRECT"]] }],
+		["60,00 kr", { "entities": [] }],
+		["Ansmann Racing Programmingbox Xirius ESC Snabbvy", { "entities": [] }],
+		["Ansmann Racing...", { "entities": [] }],
+		["270,00 kr 135,00 kr", { "entities": [] }],
+		["−50%", { "entities": [] }],
+		["Split Six 2.2\"/3.0\" Fälg bak par Snabbvy", { "entities": [] }],
+		["Split Six 2.2\"/3.0\" Fälg...", { "entities": [] }],
+		["244,00 kr", { "entities": [] }],
+		["Phoenix Adapter Multiplex Snabbvy", { "entities": [] }],
+		["Phoenix Adapter Multiplex", { "entities": [] }],
+		["75,00 kr", { "entities": [] }],
+		["10000CPS Silicone Differential Oil Snabbvy", { "entities": [] }],
+		["10000CPS Silicone...", { "entities": [] }],
+		["80,00 kr", { "entities": [] }],
+		[
+			"Absima 1:14 Monster Truck RACING black/red 4WD RTR Snabbvy",
+			{ "entities": [] }
+		],
+		["Absima 1:14 Monster Truck...", { "entities": [] }],
+		["1 259,00 kr", { "entities": [] }],
+		["Brushless Motor 1:10 \"Revenge CTM\" 6,5T Snabbvy", { "entities": [] }],
+		["Brushless Motor 1:10...", { "entities": [] }],
+		["896,00 kr", { "entities": [] }],
+		["Silicone shock oil 250CPS 60ml Snabbvy", { "entities": [] }],
+		["250CPS Silcone Shock Oil", { "entities": [] }],
+		["50,00 kr", { "entities": [] }],
+		[
+			"Space Drone Quadrocopter FPV 2,4GHz inkl rörlig HD-kamera Snabbvy",
+			{ "entities": [] }
+		],
+		["Space Drone Quadrocopter...", { "entities": [] }],
+		["1 795,00 kr", { "entities": [] }],
+		["Light UFO Flygande Kula 3 kan IR RTF Snabbvy", { "entities": [] }],
+		["Light UFO Flygande Kula 3...", { "entities": [] }],
+		["349,00 kr 174,50 kr", { "entities": [] }],
+		["−50%", { "entities": [] }],
+		["Brushless Motor 1:8 \"Revenge CTM\" 2100KV Snabbvy", { "entities": [] }],
+		["Brushless Motor 1:8...", { "entities": [] }],
+		["1 294,00 kr", { "entities": [] }],
+		[
+			"JC Pressure Points - Gold compound 2,2 x 3,0 par Snabbvy",
+			{ "entities": [] }
+		],
+		["JC Pressure Points - Gold...", { "entities": [] }],
+		["259,00 kr", { "entities": [] }],
+		[
+			"Absima 1:16 EP BL Touring Car \"FUN MAKER\" stars'n grey RTR Snabbvy",
+			{ "entities": [] }
+		],
+		["Absima 1:16 EP BL Touring...", { "entities": [] }],
+		["2 295,00 kr", { "entities": [] }],
+		["Absima LiPo 7.4V-90C 5400 Hardcase (Tubes) Snabbvy", { "entities": [] }],
+		["LiPo 7.4V-90C 5400 Hardcase...", { "entities": [] }],
+		["746,00 kr", { "entities": [] }],
+		[
+			"Absima 1:16 4WD High Speed Sand Buggy X TRUCK 2,4GHz Black/Blue Snabbvy",
+			{ "entities": [] }
+		],
+		["Absima 1:16 4WD High Speed...", { "entities": [] }],
+		["1 135,00 kr", { "entities": [] }],
+		[
+			"Hellcat Mk. II \"Fleet Air Arm\", No.804 Squadron, 1945 Snabbvy",
+			{ "entities": [] }
+		],
+		["Hellcat Mk. II \"Fleet Air...", { "entities": [] }],
+		["299,00 kr 149,50 kr", { "entities": [] }],
+		["PÅ REA!", { "entities": [] }],
+		["−50%", { "entities": [] }],
+		["SLUT I LAGER", { "entities": [] }],
+		["20000CPS Silicone Differential Oil Snabbvy", { "entities": [] }],
+		["20000CPS Silicone...", { "entities": [] }],
+		["80,00 kr", { "entities": [] }],
+		["ProLine Sedan V-Rage LP -S2 Snabbvy", { "entities": [] }],
+		["ProLine Sedan V-Rage LP -S2", { "entities": [] }],
+		["139,00 kr", { "entities": [] }],
+		["Phoenix Adapter Spektrum DX5E/6i Snabbvy", { "entities": [] }],
+		["Phoenix Adapter Spektrum...", { "entities": [] }],
+		["47,00 kr", { "entities": [] }],
+		["Gear2Play FPV Urban Drone Snabbvy", { "entities": [] }],
+		["Gear2Play FPV Urban Drone", { "entities": [] }],
+		["899,00 kr 629,30 kr", { "entities": [] }],
+		["−30%", { "entities": [] }],
+		["ProLine RoadHawgI XTR-M2 Snabbvy", { "entities": [] }],
+		["ProLine RoadHawgI XTR-M2", { "entities": [] }],
+		["139,00 kr", { "entities": [] }],
+		[
+			"Absima Stick Pack LiPo 7.4V-25C 3000 Hardcase (T-Plug) Snabbvy",
+			{ "entities": [] }
+		],
+		["LiPo 7.4V-25C 3000 Hardcase...", { "entities": [] }],
+		["318,00 kr", { "entities": [] }],
+		["Absima Silicone Shock Oil \"500cps\" 60 ml Snabbvy", { "entities": [] }],
+		["Absima Silicone Shock Oil...", { "entities": [] }],
+		["67,00 kr", { "entities": [] }],
+		["Alla produkter", { "entities": [] }],
+		["BÄSTSÄLJARE", { "entities": [] }],
+		["Suspension Arm front (2) TM4 Comp. Buggy Snabbvy", { "entities": [] }],
+		["Suspension Arm Front (2)...", { "entities": [] }],
+		["100,00 kr", { "entities": [] }],
+		["GWS Propeller 8x4\" direktdrift Snabbvy", { "entities": [] }],
+		["GWS Propeller 8x4\" Direktdrift", { "entities": [] }],
+		["40,00 kr", { "entities": [] }],
+		["UHU Hart trälim Tub 33ml Snabbvy", { "entities": [] }],
+		["UHU Hart Tub 35g/33ml", { "entities": [] }],
+		["69,00 kr", { "entities": [] }],
+		["Furulist 3x3x1000 Snabbvy", { "entities": [] }],
+		["Furulist 3x3x1000", { "entities": [] }],
+		["5,00 kr", { "entities": [] }],
+		["SLUT I LAGER", { "entities": [] }],
+		["Balsaflak 3.0x100x1000 Snabbvy", { "entities": [] }],
+		["Balsaflak 3.0x100x1000", { "entities": [] }],
+		["35,00 kr", { "entities": [] }],
+		["Front Chassis Plate 2WD Snabbvy", { "entities": [] }],
+		["Front Chassis Plate 2WD", { "entities": [] }],
+		["60,00 kr", { "entities": [] }],
+		["SLUT I LAGER", { "entities": [] }],
+		[
+			"Suspension Arm front (2 pcs) 2WD Comp. Buggy Snabbvy",
+			{ "entities": [] }
+		],
+		["Suspension Arm Front (2)...", { "entities": [] }],
+		["109,00 kr", { "entities": [] }],
+		["OS GLÖDSTIFT Nr 8 Snabbvy", { "entities": [] }],
+		["OS GLÖDSTIFT Nr 8", { "entities": [] }],
+		["135,00 kr", { "entities": [] }],
+		["Alla bästsäljare", { "entities": [] }],
+		["NYHETER", { "entities": [] }],
+		[
+			"Futaba S-U400 Servo Standard 7.9kg/0.13s HV S.BUS2 Bulk Snabbvy",
+			{ "entities": [] }
+		],
+		["Futaba S-U400 Servo...", { "entities": [] }],
+		["517,00 kr", { "entities": [] }],
+		["NY", { "entities": [] }],
+		[
+			"Futaba S-U400 Servo Standard 7.9kg/0.13s HV S.BUS2 Bulk Snabbvy",
+			{ "entities": [] }
+		],
+		["Futaba S-U400 Servo...", { "entities": [] }],
+		["445,00 kr", { "entities": [] }],
+		["NY", { "entities": [] }],
+		[
+			"Vapex Li-Po Batteri 2S 7,4V 450mAh 20C BEC-Kontakt Snabbvy",
+			{ "entities": [] }
+		],
+		["Vapex Li-Po Batteri 2S 7,4V...", { "entities": [] }],
+		["159,00 kr", { "entities": [] }],
+		["NY", { "entities": [] }],
+		["Alla nyheter", { "entities": [] }],
+		["PÅ REA", { "entities": [] }],
+		[
+			"Walkera QR X350 QuadCopter FPV inkl GPS - KAMPANJ Snabbvy",
+			{ "entities": [] }
+		],
+		["Walkera QR X350 QuadCopter...", { "entities": [] }],
+		["6 995,00 kr 6 295,00 kr", { "entities": [] }],
+		["PÅ REA!", { "entities": [] }],
+		["-700,00 KR", { "entities": [] }],
+		[
+			"Hubsan Zino FPV Hopfällbar, GPS, 4K UHD, Image Tracking, RTF, 2xbatteri, väska Snabbvy",
+			{ "entities": [] }
+		],
+		["Hubsan Zino FPV Hopfällbar,...", { "entities": [] }],
+		["4 895,00 kr 3 916,00 kr", { "entities": [] }],
+		["−20%", { "entities": [] }],
+		["Team C 1:8 GP Buggy T8V3 Competition KIT Snabbvy", { "entities": [] }],
+		["Team C 1:8 GP Buggy T8V3...", { "entities": [] }],
+		["5 395,00 kr 3 395,00 kr", { "entities": [] }],
+		["-2 000,00 KR", { "entities": [] }],
+		["Tiger Trainer 40 MKIII BL SC 2,4G röd Snabbvy", { "entities": [] }],
+		["Tiger Trainer 40 MKIII BL...", { "entities": [] }],
+		["4 295,00 kr 2 995,00 kr", { "entities": [] }],
+		["PÅ REA!", { "entities": [] }],
+		["-1 300,00 KR", { "entities": [] }],
+		[
+			"Absima 1:10 EP Truggy AT3.4BL 4WD Brushless RTR Snabbvy",
+			{ "entities": [] }
+		],
+		["Absima 1:10 EP Truggy...", { "entities": [] }],
+		["3 079,00 kr 2 463,20 kr", { "entities": [] }],
+		["−20%", { "entities": [] }],
+		[
+			"Absima 1:10 EP Buggy AB3.4BL 4WD Brushless RTR Snabbvy",
+			{ "entities": [] }
+		],
+		["Absima 1:10 EP Buggy...", { "entities": [] }],
+		["2 969,00 kr 2 375,20 kr", { "entities": [] }],
+		["−20%", { "entities": [] }],
+		[
+			"ABSIMA 1:10 EP Sand Buggy ASB1BL 4WD Brushless RTR Waterproof Snabbvy",
+			{ "entities": [] }
+		],
+		["ABSIMA 1:10 EP Sand Buggy...", { "entities": [] }],
+		["2 895,00 kr 2 316,00 kr", { "entities": [] }],
+		["−20%", { "entities": [] }],
+		[
+			"Absima 1:10 EP Desert Buggy ADB 1.4 orange 4WD RTR Snabbvy",
+			{ "entities": [] }
+		],
+		["Absima 1:10 EP Desert Buggy...", { "entities": [] }],
+		["2 345,00 kr 1 876,00 kr", { "entities": [] }],
+		["−20%", { "entities": [] }],
+		["Alla produkter med nersatt pris", { "entities": [] }],
+		["Försäljningsvillkor", { "entities": [] }],
+		[
+			"Betalning, leverans, garanti, ångerrätt, reklamation m m",
+			{ "entities": [] }
+		],
+		["Frakt", { "entities": [] }],
+		["Enhetsfrakt från 89 kr", { "entities": [] }],
+		["Integritetspolicy", { "entities": [] }],
+		["Hur vi hanterar dina uppgifter", { "entities": [] }],
+		["Facebook", { "entities": [] }],
+		["PRODUKTER", { "entities": [] }],
+		["Kampanjer", { "entities": [] }],
+		["Nya produkter", { "entities": [] }],
+		["Storsäljare", { "entities": [] }],
+		["INFORMATION", { "entities": [] }],
+		["Returinformation", { "entities": [] }],
+		["Leveransinformation", { "entities": [] }],
+		["Fraktinformation", { "entities": [] }],
+		["Betalningsinformation", { "entities": [] }],
+		["Försäljningsvillkor", { "entities": [] }],
+		["Om oss", { "entities": [] }],
+		["Öppettider i hämtbutiken", { "entities": [] }],
+		["Cookies", { "entities": [] }],
+		["Integritetspolicy", { "entities": [] }],
+		["Kontakta oss", { "entities": [] }],
+		["Butiker", { "entities": [] }],
+		["DITT KONTO", { "entities": [] }],
+		["Personlig information", { "entities": [] }],
+		["Ordrar", { "entities": [] }],
+		["Kreditfakturor", { "entities": [] }],
+		["Adresser", { "entities": [] }],
+		["Kuponger", { "entities": [] }],
+		["BUTIKSINFORMATION", { "entities": [] }],
+		["rchobbysyd.nu", { "entities": [] }],
+		["Jungmansgatan 1\n271 51 Ystad", { "entities": [[0, 28, "ADDRESS"]] }],
+		["Sweden", { "entities": [] }],
+		["Telefon: 0411-162 45", { "entities": [[9, 20, "TEL"]] }],
+		["E-post: kundservice@rchobbysyd.nu", { "entities": [[8, 33, "EMAIL"]] }],
+		[
+			"Vi använder cookies för statistik och anpassat innehåll. Genom att fortsätta använda webbplatsen samtycker du till att cookies används. Läs mer om cookies.",
+			{ "entities": [] }
+		],
+		["Acceptera", { "entities": [] }],
+		[
+			"© 2023 - rchobbysyd.nu - Ystad - Sweden",
+			{ "entities": [[9, 22, "URL"]] }
+		],
+		[
+			"Ingrid Andersson\nElsa Johansson\nSofia Karlsson\nEmma Nilsson\nAstrid Eriksson\nLinnea Larsson\nLinn Svensson\nClara Gustafsson\nFreja Pettersson\nIsabella Olsson\nErik Andersson\nGustav Johansson\nAnders Karlsson\nLars Nilsson\nCarl Eriksson\nJohan Larsson\nMagnus Svensson\nNils Gustafsson\nHenrik Pettersson\nOskar Olsson\nViktor Persson\nArvid Lindgren\nEmil Magnusson\nFilip Bergman\nAxel Holm\nOscar Lundqvist\nViktor Strand\nFelix Ekström\nWilliam Söderström\nElias Lindqvist\nMatilda Persson\nEmilia Lindgren\nOlivia Magnusson\nStella Bergman\nAlice Holm\nWilma Lundqvist\nEbba Strand\nAlva Ekström\nIda Söderström\nNova Lindqvist\nRosenvägen 14, 123 45 Södertälje\nBjörkgatan 7, 567 89 Göteborg\nTallvägen 22, 234 56 Malmö\nEkbacken 5, 345 67 Stockholm\nGranvägen 11, 456 78 Uppsala\nDrottninggatan 3, 678 90 Västerås\nLindvägen 8, 789 01 Linköping\nFuruvägen 17, 890 12 Örebro\nStrandpromenaden 4, 901 23 Norrköping\nSjövägen 9, 012 34 Helsingborg\nRosenvägen 14\n123 45 Södertälje\nBjörkgatan 7\n567 89 Göteborg\nTallvägen 22\n234 56 Malmö\nEkbacken 5\n345 67 Stockholm\nGranvägen 11\n456 78 Uppsala\nDrottninggatan 3\n678 90 Västerås\nLindvägen 8\n789 01 Linköping\nFuruvägen 17\n890 12 Örebro\nStrandpromenaden 4\n901 23 Norrköping\nSjövägen 9\n012 34 Helsingborg\n",
+			{
+				"entities": [
+					[0, 16, "PERSON"],
+					[17, 31, "PERSON"],
+					[32, 46, "PERSON"],
+					[47, 59, "PERSON"],
+					[60, 75, "PERSON"],
+					[76, 90, "PERSON"],
+					[91, 104, "PERSON"],
+					[105, 121, "PERSON"],
+					[122, 138, "PERSON"],
+					[139, 154, "PERSON"],
+					[155, 169, "PERSON"],
+					[170, 186, "PERSON"],
+					[187, 202, "PERSON"],
+					[203, 215, "PERSON"],
+					[216, 229, "PERSON"],
+					[230, 243, "PERSON"],
+					[244, 259, "PERSON"],
+					[260, 275, "PERSON"],
+					[276, 293, "PERSON"],
+					[294, 306, "PERSON"],
+					[307, 321, "PERSON"],
+					[322, 336, "PERSON"],
+					[337, 351, "PERSON"],
+					[352, 365, "PERSON"],
+					[366, 375, "PERSON"],
+					[376, 391, "PERSON"],
+					[392, 405, "PERSON"],
+					[406, 419, "PERSON"],
+					[420, 438, "PERSON"],
+					[439, 454, "PERSON"],
+					[455, 470, "PERSON"],
+					[471, 486, "PERSON"],
+					[487, 503, "PERSON"],
+					[504, 518, "PERSON"],
+					[519, 529, "PERSON"],
+					[530, 545, "PERSON"],
+					[546, 557, "PERSON"],
+					[558, 570, "PERSON"],
+					[571, 585, "PERSON"],
+					[586, 600, "PERSON"],
+					[601, 633, "ADDRESS"],
+					[634, 663, "ADDRESS"],
+					[664, 690, "ADDRESS"],
+					[691, 719, "ADDRESS"],
+					[720, 748, "ADDRESS"],
+					[749, 782, "ADDRESS"],
+					[783, 812, "ADDRESS"],
+					[813, 840, "ADDRESS"],
+					[841, 878, "ADDRESS"],
+					[879, 909, "ADDRESS"],
+					[910, 941, "ADDRESS"],
+					[942, 970, "ADDRESS"],
+					[971, 996, "ADDRESS"],
+					[997, 1024, "ADDRESS"],
+					[1025, 1052, "ADDRESS"],
+					[1053, 1085, "ADDRESS"],
+					[1086, 1114, "ADDRESS"],
+					[1115, 1141, "ADDRESS"],
+					[1142, 1178, "ADDRESS"],
+					[1179, 1208, "ADDRESS"]
+				]
+			}
+		],
+		[
+			"Vianor\nSelect country\nSök\nSök efter produkter, däck- eller bilservicetjänster eller information\nSök\n\n\nTom varukorg\nFör företag\nDäck\nFälgar\nDäckverkstad\nBilverkstad\nVerkstäder\nErbjudanden\nmyVianor\nVianor Bjärnum (Partner)\nVianor Bjärnum (Partner)\nSom Vianor-partner erbjuder vi samma kvalitetsprodukter som Vianor-kedjan. Från vårt breda utbud hittar du rätt däck och fälgar för dig, och vår personal hjälper dig gärna när du behöver det. Besök oss på plats för köp. Tidsbokning görs via telefon eller e-post.\n\nVälj verkstad\nHitta närmaste verkstad\nVianor Bjärnum (Partner)\nBoställsgatan 48\n282 61, Bjärnum\n\nTel. 045-12 04 44\nEmail: info@bjarnumsdackcenter.se\n\nVisa på karta Få prisförslag på service\n\nÖppettider\nMån-Ons: 13.00-17.00\nTors-Sön: Stängt\n\nAlltid tillgänglig på telefon: 045-12 04 44\n\nLängre öppningstider under säsong\n\nDäckservice\nDäckhotell\nDäckhotell\nBli förvaringskund och upptäck hur bekvämt och enkelt det kan vara att byta däck! Förvarar du redan dina däck hos oss kan du klicka på länken till höger för att boka tid för ditt däckbyte. Till dig som vill bli förvaringskund kan vi erbjuda ett introduktionserbjudande första säsongen som innefattar både däckbyte, tvätt av dina hjul och förvaring. Priset på erbjudandet varierar beroende på var i landet verkstaden befinner sig. Lägg erbjudandet i varukorgen och ta del av erbjudandet!\nLäs mer\nFå prisförslag på service\nDäckbyte\nDäckbyte\nDags att byta däck? Vi hjälper dig med däckbytet. Våra professionella däckmontörer ger dig snabb och säker service samtidigt som du kan njuta av en kopp kaffe i vår kundmottagning. I samband med ditt däckbyte kontrollerar vi även övriga slitagedelar som exempelvis bromsar - allt för en säker resa!\nLäs mer\nFå prisförslag på service\nDäckservice vid däckköp\nDäckservice vid däckköp\nFrån 1320 kr\nNär du har däck eller fälgar i varukorgen läggs denna service till automatiskt. Vi monterar de nya däcken på fälgarna, tillsätter korrekt lufttryck och balanserar hjulet. Vi skiftar sedan på däcken på din bil så att du är klar för en fortsatt säker resa! Glöm inte att efterdra dina hjulbultar efter ca 10 mils körning. Självklart kan du besöka oss så hjälper vi dig att efterdra hjulbultarna - helt kostnadsfritt. För att säkerställa att däcken passar din bil rekommenderar vi att du kontrollerar fälgens tum-storlek (exempel: 16\") innan beställning för att säkerställa att däcken passar dina befintliga fälgar.\nLäs mer\nLägg i kundvagn\nDäckservice kunds egna däck\nDäckservice kunds egna däck\nVåra däckmontörer monterar och balanserar dina egna däck på nya eller befintliga fälgar. Vi kontrollerar så att dina däck har rätt lufttryck och skiftar dem sedan på bilen så att din bil är helt körklar för en fortsatt säker resa.\nLäs mer\nFå prisförslag på service\nBalansering av däck\nBalansering av däck\nVi skiftar av dina däck från bilen och balanserar dem med hjälp av en balanseringsmaskin som enkelt upptäcker eventuella viktskillnader som kan orsaka obalans. Vid behov justerar vi antalet vikter och skiftar tillbaka däcken på din bil.\nLäs mer\nFå prisförslag på service\nDäckservice tung trafik\nDäckservice tung trafik\nRing: 045-12 04 44\nFå prisförslag på service\nMC däckservice\nMC däckservice\nRing: 045-12 04 44\nLäs mer\nFå prisförslag på service\nDäckreparation\nDäckreparation\nAtt få punktering är aldrig en rolig upplevelse. Om du fått punktering hjälper vi dig att laga däcket. Vi undersöker först att skadan går att laga på ett säkert sätt. När skadan har lokaliserats monterar vi av däcket från fälgen och lagar punkteringen från däcket insida. Vi monterar sedan tillbaka däcket på fälgen och balanserar hjulet.\nLäs mer\nFå prisförslag på service\nBilservice\nLyktglaspolering\nLyktglaspolering\nRepade och oxiderade lyktglas försämrar din sikt och kan dessutom ge nedslag på besiktningen. Låt oss väcka nytt liv i dina två framlyktor.\nLäs mer\nFå prisförslag på service\nDäck\nTesla däck\nTesla vinterdäck\nTesla Model 3 vinterdäck\nTesla Model Y vinterdäck\nPersonbilar\nVinterdäck\nDubbdäck\nFriktionsdäck\nSUV-däck\nC-däck\nDäckdimensioner\nNokian Tyres\nFälgar\nHur väljer jag rätt fälgar för min bil?\nDäckinformation\nEU Däckmärkning\nAnvändningstips\nReservhjul\nFörläng däckets livslängd\nKöpa däck online\nHjulbultar\nKontrollera lufttrycket\nFörutse vattenplaning i tid\nKontrollera dina däck\nRätt förvaring\nLjusinställning\nBilens varningssymboler\nDäckomvandlaren\nBegagnade däck\nDäckfakta\nKöra in nya däck\nBultcirckel\nDäckmärkning\nBelastningsindex däck\nHastighetsindex däck\nBildäck och bränsleförbrukning\nDäckljud\nBromssträcka\nDubbdäck eller dubbfria däck?\nÅret runt däck\nHögpresterande däck till elbil\nDäckprofil\nRegler och råd om däck\nÅldring av däck\nVad händer med dina gamla däck?\nDäcktester viktiga\nDäck till husvagn\nAll-terrain-däck\nRegummerade däck\nDäcktestresultat Nokian Tyres\nBilliga däck och kostnader\nTPMS-system\nTPMS - FAQ\nSommardäck\nSommardäck lag\nMönsterdjup sommardäck\nSommardäck datum\nByta sommardäck\nVinterdäck\nOm Vianor\nSäkerhetsavstånd i trafiken\nKontaktinformation\nGuide - Så bokar du tid online\nLeveransvillkor och garanti\nHakkaskydd\nJobba hos oss\nFeedback\nPrisförslag\nBetalningssätt\nAnvändarvillkor\nNyheter\nAvboka tidsbokning\nHem\nVerkstäder\nVianor Bjärnum (Partner)\n© 2023 Vianor |  Leveransvillkor  |  Sekretess policy\n\nVianor Finland\n|\nVianor Norway\n",
+			{
+				"entities": [
+					[573, 605, "ADDRESS"],
+					[612, 624, "TEL"],
+					[632, 658, "EMAIL"],
+					[782, 794, "TEL"],
+					[3121, 3133, "TEL"],
+					[3196, 3208, "TEL"]
+				]
+			}
+		],
+		["Select country", { "entities": [] }],
+		["Sök", { "entities": [] }],
+		[
+			"Sök efter produkter, däck- eller bilservicetjänster eller information",
+			{ "entities": [] }
+		],
+		["Sök", { "entities": [] }],
+		[
+			" HKF Group\nHKF GROUP\n\nOM OSS\n\nLOGISTIK\n\nLEDIGT HOS OSS\n\nJOBBA HOS OSS\n\nKONTAKT\nKontakta oss\nHos oss uppskattar vi personlig service. Kontakta oss över formuläret nedan så återkommer vi så fort vi kan.\n\nPå grund av att vi arbetar i den dagliga driften kan det vara svårt att nå oss över telefon därför är det bättre ifall ni kontaktar oss över formulär för att vi ska kunna hjälpa er så fort vi får tid över.\n\n\n\nAdress info\n\nVårt kontor\nTransportvägen 8, 243 35 Höör\n\nVåra lagersiter\n\nHKF Logistics 1.0 Transportvägen 8, 243 35 Höör\n\nHKF Logistics 2.0 Pumpvägen 2B, 243 93 Höör\n\nHKF Logistics 3.0 Nya sätoftavägen 4A, 243 35 Höör\n\nHKF Logistics 4.0 Pumpvägen 4, 243 93 Höör\n\n}\nTelefontider\nM-F: 8.00 – 16.00\nL-S: Stängt\n\nVäxel\n0413-55 97 50\n\nKontakt formulär\nNamn\n\nMail adress\n\nMeddelande\nJag bekräftar att jag tagit del av GDPR information\n2 + 15 =\n\nSKICKA MEDDELANDE\nVi som jobbar här\nBengt\nBengt\nÄgare\n\nAlexander\nAlexander\nÄgare/VD\n\nNiklas\nNiklas\nVaktmästare\n\nBjörn\nBjörn\nPlatschef\n\nFredric\nFredric\nBo\nBo\nMadeleine\nMadeleine\nEmma\nEmma\nNils\nNils\nAgne\nAgne\n2015 BLEV HÖÖRS KONSULT OCH FINANS AB UTSEED TILL ÅRETS HÖÖR FÖRETAG.\n\nGDPR | HÖÖR | Visit MittSkåne\n",
+			{
+				"entities": [
+					[437, 466, "ADDRESS"],
+					[503, 532, "ADDRESS"],
+					[552, 577, "ADDRESS"],
+					[597, 629, "ADDRESS"],
+					[649, 673, "ADDRESS"],
+					[728, 741, "TEL"]
+				]
+			}
+		],
+		[
+			"Skip to content\ncepa.se\nHemProduktionNyheterHistorikKvalitetKarriärKontaktPolicySvenska\nCepa Steeltech AB\nCEPA Steeltech AB\nRingsjövägen 9\n243 30 Höör\nSweden\nTel: +46 (0)413 403500\ninfo@cepa.se\n\n\n\nCEO\nMichael Håkansson\nmh@cepa.se\n\nSite Manager\nPierre Landgren\n+46 (0) 735 215 702\npierre.landgren@cepa.se\n\nCFO\nJohanna Sjölin\n+46 (0) 739 697 800\njohanna.sjolin@cepa.se\n\nMarketing Manager\nMagnus Sandström\n+46 (0) 708 830 168\nmagnus.sandstrom@cepa.se\n\nHitta oss på Linkedin.\n\n\n\nHitta oss på Facebook.\n",
+			{
+				"entities": [
+					[16, 23, "URL"],
+					[88, 105, "COMPANY"],
+					[106, 123, "COMPANY"],
+					[124, 150, "ADDRESS"],
+					[163, 180, "TEL"],
+					[181, 193, "EMAIL"],
+					[201, 218, "PERSON"],
+					[219, 229, "EMAIL"],
+					[244, 259, "PERSON"],
+					[260, 279, "TEL"],
+					[280, 303, "EMAIL"],
+					[309, 323, "PERSON"],
+					[324, 343, "TEL"],
+					[344, 366, "EMAIL"],
+					[386, 402, "PERSON"],
+					[403, 422, "TEL"],
+					[423, 447, "EMAIL"]
+				]
+			}
+		],
+		[
+			"Skip to content\nHome\nFitness, Wellness, Rekreation\n\nHem\n\nVåra Erbjudanden\n\nKort & Priser\n\nÖvrigt\n\nMina sidor\n\nDetta gym är ett nyckelgym som är bemannat måndag-fredag 17-18.30(...ish), där du som medlem släpper in dig själv med ett passerkort.\n\nI varje nytt medlemskap ingår en personlig rundvisning där du dessutom får ett enkelt basprogram som ska passa de flesta nya gymkunder. Detta erbjuder vi för att vi vill att du skall känna dig trygg och ha säker träning. Vi använder endast premium utrustning så att du som kund skall få ut det mesta av din träning. Vi utvecklas varje år genom att komplettera den utrustning vi har med något nytt och därmed öka prisvärdheten för kunden .\n\nHär kan du använda ditt frisvårdsbidrag från e-Passi f.d. Actiway.\n\nInstruktörsledd cirkelträning varje måndag och onsdag kl 09.00 och vi börjar uppvärmda så kom lite tidigare.\n\nTryck på knappen \"Priser & medlemskap\" nedan för att ta del av våra erbjudanden och priser. Hör av dig så hittar vi en tid som passar oss båda!\n\nKom och se vad vi har att erbjuda i träningsväg och vi hoppas att det passar.\nKolla priserna NU\n\nPriser & medlemskap\nHär kör vi med miljövänlig, egenproducerad el!\nSedan den 13 Maj 2020 så är vår solcellsanläggning uppe och kör och vi producerar härlig grön el och allt som vi inte använder själv i fastigheten säljer vi. Detta gör oss till det grönaste gymmet i området och bidrar ytterligare till att höja vår miljöprofil.\n\nResan hit har varit lång och lärorik! Går du också i funderingar om att installera solceller så hör gärna av dig så skall vi se om jag inte kan hjälpa dig förverkliga dina funderingar.\n\nKÖP LUNCHEN PÅ GYMMET\n(finns inte än, kommer åter till våren)\nFoodbox erbjuder dig flera goda och färdiglagade maträtter i praktiska portionsförpackningar. Foodbox innehåller näringsberäknade och vällagade maträtter och är särskilt anpassade för dig som vill komma i form eller orka hålla en aktiv livsstil. Måltiderna innehåller minimalt med snabba kolhydrater vilket gör att du håller dig mätt längre och är det så att du ofta äter ute så äter du både nyttigare och sparar pengar på samma gång. Foodbox hjälper till att förenkla din vardag på ett hälsosamt vis.\n\nVid köp av 1st 64kr/st.\n\nVärdekort för 10st 580kr, vid köp av värdekort behöver inte alla 10 måltider hämtas ut samtidigt\nBesök www.foodbox.se/!\n\nHåll koll på din träningsutveckling\nGenom att med jämna mellanrum göra en kroppsanalys så kan du på ett bättre sätt hålla koll på hur du utvecklas i din träning rent fysiologiskt. Gymmets Tanita våg gör analysen i 11 punkter och mäter bland annat, Vikt, Vätskebalans, Kropsfett invärtes och utvärtes, Muskelmassa, Benmassa mm. personen som gör mätningen mäter även omfång på kroppen och allt detta sammanfattas och skickas till dig i ett mail. Allt som allt är det 15 punkter som mäts och kan jämföras över tid för att se den personliga utvecklingen.\n\n99kr kostar kroppsanalysen och gymmet sparar dina mätvärden i ett år.\nVIKTMINSKNING\nVår cirkelträningsutrustning är en Easyline.\nEasyline är den perfekta snabbträningen för styrke- och metabolisk träning, kombinerat med överlägsen kvalitetsdesign och hållbarhet. Easyline ger dig chansen till snabba resultat, kombinera detta med gymmets smalmat (åter till våren) och du har ett vinnande koncept!\n\nGYM 8 erbjuder alla medlemmar cirkelträning i grupp på måndag och onsdagar kl 9  förutsatt att detta inte är en helgdag och efter bjuder vi på lite frukt.\n\nEasyline cirkelträning passar ALLA: kom igång-träning, allsidig träning för mer styrka i hela kroppen, träning för att gå ner i vikt, vill träna men har ont om tid. Passar unga och äldre, vältränade och otränade.\n\nUse ctrl + scroll to zoom the map\n\n\nHITTA HIT\nJärnvägsgatan 8\n286 33 Örkelljunga\n\ntel. 0705-720860\n\ninfo@gym8.nu\n\n\n\nTeckna dig för GYM8´s nyhetsbrev HÄR\n\n\nCopyright © 2023 GYM 8 | Theme by SiteOrigin.\nScroll to top\n",
+			{
+				"entities": [
+					[2313, 2328, "URL"],
+					[3697, 3731, "ADDRESS"],
+					[3738, 3749, "TEL"],
+					[3751, 3763, "EMAIL"]
+				]
+			}
+		],
+		["Besök www.foodbox.se/!", { "entities": [[6, 21, "URL"]] }]
 	]
 }
