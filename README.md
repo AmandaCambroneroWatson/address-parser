@@ -88,6 +88,11 @@ Spacy
 In PyCharm you can simply run the file you want from the toolbar.
 So run the test.py script to test the model.
 
+### Limitations
+
+Rarely extracts perfect data. Only trained towards swedsih data.
+Trouble extracting data that comes in a unconventional format.
+
 ## Version History
 
 ### v0.1.0-beta
@@ -97,3 +102,7 @@ Initial Release
 ### v0.2.0-beta
 
 Added more training data. And changed to the official Spacy training method
+
+### v0.3.0-beta
+
+Better at finding emails, people and company names. Added more labels.
