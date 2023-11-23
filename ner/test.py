@@ -1,56 +1,65 @@
 import spacy
 import json
+import phonenumbers
+from phonenumbers.phonenumberutil import NumberParseException
+import re
 
 # Load the trained models
 nlp1 = spacy.load("./output/model-best")  # load the best model
 nlp2 = spacy.load("sv_core_news_sm")
+
+# Process the text with the models
+models = [nlp1, nlp2]
+
 file_path = "../test_text.txt"
 output_file_path_json = "output_entities.json"
 output_file_path_txt = "output_entities.txt"
 
+# Define the address pattern
+address_pattern = r'\b\d{1,5}\s[A-Za-z0-9åäöÅÄÖ]+\s(?:\d{1,5}\s)?\d{1,5}(?:\s-\s\d{1,5}\s\d{1,5})?(?:\s[A-Za-z0-9åäöÅÄÖ]+\s?\d{1,5})?\b'
+
+# Define the telephone number pattern
+tel_pattern = r'^(?:\d{8}(?:\d{2}(?:\d{2})?)?|\(\+?\d{2,3}\)\s?(?:\d{4}[\s*.-]?\d{4}|\d{3}[\s*.-]?\d{3}|\d{2}([\s*.-]?)\d{2}\1\d{2}(?:\1\d{2})?)|\d{3}-\d{2}\s?\d{2}\s?\d{2})$'
+
+# Define the email pattern
+email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+
 with open(file_path, "r", encoding="utf-8") as file:
     text = file.read()
 
-# Process the text with the models
-models = [nlp1]
+# Extract unique entities
 unique_entities = set()
 
 for model in models:
     doc = model(text)
     for ent in doc.ents:
-        key = (ent.label_, ent.text)
-        unique_entities.add(key)
+        unique_entities.add(ent.text)
 
-entities = [{"label": label, "text": text} for label, text in unique_entities]
+entities = [{"label": "UNKNOWN", "text": text} for text in unique_entities]
 
-def remove_newlines(item):
-    if isinstance(item, str):
-        return item.replace("\n", " ")
-    elif isinstance(item, dict):
-        # If it's a dictionary, apply the function to all values
-        return {key: remove_newlines(value) for key, value in item.items()}
-    else:
-        # If it's not a string or dictionary, return it as is
-        return item
+# Validate TEL entities using phonenumbers
+validated_entities = []
+
+for entity in entities:
+    text = entity["text"]
+    if re.search(tel_pattern, text):
+        # If the text matches the TEL pattern, consider it as a TEL entity
+        validated_entities.append({"label": "TEL", "text": text})
+    elif re.search(email_pattern, text):
+        validated_entities.append({"label": "EMAIL", "text": text})
+    elif re.search(address_pattern, text):
+        validated_entities.append({"label": "ADDRESS", "text": text})
 
 # Save entities to JSON
 with open(output_file_path_json, "w", encoding="utf-8") as output_file_json:
-    json.dump(entities, output_file_json, ensure_ascii=False, indent=4)
-
+    json.dump(validated_entities, output_file_json, ensure_ascii=False, indent=4)
 
 # Save entities to text file
 with open(output_file_path_txt, "a", encoding="utf-8") as output_file_txt:
-    for ent in entities:
+    for ent in validated_entities:
         output_file_txt.write("{}\n".format(ent["text"].replace('\n', ' ')))
 
-
 # Print entities to console
-for ent in entities:
-    if ent["label"] == "ADDRESS":
-        print("{} {}".format(ent["label"], ent["text"].replace('\n', ' ')))
-    elif ent["label"] == "EMAIL":
-        print("{} {}".format(ent["label"], ent["text"].replace('\n', ' ')))
-    elif ent["label"] == "TEL":
-        print("{} {}".format(ent["label"], ent["text"].replace('\n', ' ')))
-    elif ent["label"] == "PERSON":
+for ent in validated_entities:
+    if ent["label"] == "ADDRESS" or ent["label"] == "EMAIL" or ent["label"] == "TEL":
         print("{} {}".format(ent["label"], ent["text"].replace('\n', ' ')))
