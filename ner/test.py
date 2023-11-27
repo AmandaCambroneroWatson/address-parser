@@ -1,7 +1,5 @@
 import spacy
 import json
-import phonenumbers
-from phonenumbers.phonenumberutil import NumberParseException
 import re
 
 # Load the trained models
@@ -19,10 +17,12 @@ output_file_path_txt = "output_entities.txt"
 address_pattern = r'\b\d{1,5}\s[A-Za-z0-9åäöÅÄÖ]+\s(?:\d{1,5}\s)?\d{1,5}(?:\s-\s\d{1,5}\s\d{1,5})?(?:\s[A-Za-z0-9åäöÅÄÖ]+\s?\d{1,5})?\b'
 
 # Define the telephone number pattern
-tel_pattern = r'^(?:\d{8}(?:\d{2}(?:\d{2})?)?|\(\+?\d{2,3}\)\s?(?:\d{4}[\s*.-]?\d{4}|\d{3}[\s*.-]?\d{3}|\d{2}([\s*.-]?)\d{2}\1\d{2}(?:\1\d{2})?)|\d{3}-\d{2}\s?\d{2}\s?\d{2})$'
+tel_pattern = r'^(?:\+?(?:\d{1,3})?\s?(?:0[1-9]|[1-9]))(?:[\s.-]?\d{2,3}(?:(?:[\s.-]?\d{2,3}){1,2})?|\d{5,15})$'
+
 
 # Define the email pattern
-email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
+email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.(com|net|org|edu|gov|mil|int|eu|aero|coop|museum|arpa|[a-z]{2,})\b'
+
 
 with open(file_path, "r", encoding="utf-8") as file:
     text = file.read()

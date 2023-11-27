@@ -1,7 +1,7 @@
 [
     {
-        "label": "TEL",
-        "text": "035-18 88 81"
+        "label": "EMAIL",
+        "text": "info@halmstaddelivery.se"
     },
     {
         "label": "EMAIL",
@@ -12,11 +12,11 @@
         "text": "Kistingevägen 6\n302 62 Halmstad"
     },
     {
-        "label": "EMAIL",
-        "text": "ekonomi@halmstaddelivery.se"
+        "label": "TEL",
+        "text": "035-18 88 81"
     },
     {
         "label": "EMAIL",
-        "text": "info@halmstaddelivery.se"
+        "text": "ekonomi@halmstaddelivery.se"
     }
 ]
