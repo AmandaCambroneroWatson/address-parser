@@ -1,6 +1,14 @@
 import spacy
 import json
 import re
+import html
+
+def clean_text(input_text):
+    # Remove HTML tags and convert HTML entities to their corresponding characters
+    cleaned_text = html.unescape(re.sub(r'<.*?>', '', input_text))
+    # Remove multiple consecutive whitespaces
+    cleaned_text = re.sub(r'\s+', ' ', cleaned_text).strip()
+    return cleaned_text
 
 # Load the trained models
 nlp1 = spacy.load("./output/model-best")  # load the best model
