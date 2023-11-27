@@ -1,13 +1,5 @@
 [
     {
-        "label": "EMAIL",
-        "text": "ekonomi@halmstaddelivery.se"
-    },
-    {
-        "label": "ADDRESS",
-        "text": "Kistingevägen 6\n302 62 Halmstad"
-    },
-    {
         "label": "TEL",
         "text": "035-18 88 81"
     },
@@ -16,11 +8,15 @@
         "text": "info@halmstaddelivery.se"
     },
     {
-        "label": "TEL",
-        "text": "08:00 – 17:00"
+        "label": "EMAIL",
+        "text": "ekonomi@halmstaddelivery.se"
     },
     {
-        "label": "INCORRECT",
-        "text": "Måndag – Fredag"
+        "label": "EMAIL",
+        "text": "info@gybackflexografi.semecs"
+    },
+    {
+        "label": "ADDRESS",
+        "text": "Kistingevägen 6\n302 62 Halmstad"
     }
 ]
