@@ -8,8 +8,8 @@ from spacy.cli.train import train
 with open('annotations.json', 'r') as f:
     data = json.load(f)
 
-# nlp = spacy.blank("sv")
-nlp = spacy.load("./output/model-best")
+nlp = spacy.blank("sv")
+# nlp = spacy.load("./output/model-best")
 
 entity_name = ["ADDRESS", "EMAIL", "PERSON", "URL", "TEL", "INCORRECT", "COMPANY"]
 

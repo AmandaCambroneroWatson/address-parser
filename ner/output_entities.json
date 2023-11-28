@@ -1,26 +1,50 @@
 [
     {
-        "label": "EMAIL",
-        "text": "ekonomi@halmstaddelivery.se"
-    },
-    {
         "label": "ADDRESS",
-        "text": "Kistingevägen 6\n302 62 Halmstad"
-    },
-    {
-        "label": "TEL",
-        "text": "035-18 88 81"
+        "text": "Lövaråsgatan 6\n534 84 VEDUM"
     },
     {
         "label": "EMAIL",
-        "text": "info@halmstaddelivery.se"
+        "text": "orderbad@vedum.se"
+    },
+    {
+        "label": "EMAIL",
+        "text": "kvarnen@vedum.se"
+    },
+    {
+        "label": "EMAIL",
+        "text": "09:00–16:00"
     },
     {
         "label": "TEL",
-        "text": "08:00 – 17:00"
+        "text": "0512-576 40"
     },
     {
-        "label": "INCORRECT",
-        "text": "Måndag – Fredag"
+        "label": "EMAIL",
+        "text": "kundtjanst@vedum.se"
+    },
+    {
+        "label": "TEL",
+        "text": "0512-576 00"
+    },
+    {
+        "label": "TEL",
+        "text": "0512-576 90"
+    },
+    {
+        "label": "TEL",
+        "text": "0512-576 40."
+    },
+    {
+        "label": "EMAIL",
+        "text": "09:00–13:00"
+    },
+    {
+        "label": "TEL",
+        "text": "0512-576 70"
+    },
+    {
+        "label": "EMAIL",
+        "text": "info@vedum.se"
     }
 ]

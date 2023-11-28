@@ -106,3 +106,4 @@ Added more training data. And changed to the official Spacy training method
 ### v0.3.0-beta
 
 Better at finding emails, people and company names. Added more labels.
+Added regex filters to make sure we dont get false posivites.
