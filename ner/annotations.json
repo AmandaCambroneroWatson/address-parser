@@ -9,6 +9,8 @@
 		"INCORRECT"
 	],
 	"annotations": [
+		["narke@industrisupport.com\r", { "entities": [[0, 25, "EMAIL"]] }],
+		["varmland@industrisupport.com\r", { "entities": [[0, 28, "EMAIL"]] }],
 		[
 			"Gå vidare till innehåll\nSENAB\nÖppna menyn\nTelefon 08-586 350 00\nE-post kundservice@senab.com",
 			{

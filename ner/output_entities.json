@@ -1,26 +1,10 @@
 [
     {
-        "label": "ADDRESS",
-        "text": "Lövaråsgatan 6\n534 84 VEDUM"
+        "label": "EMAIL",
+        "text": "info@arvikagjuteri.se"
     },
     {
         "label": "TEL",
-        "text": "0512-576 00"
-    },
-    {
-        "label": "TEL",
-        "text": "0512-576 90"
-    },
-    {
-        "label": "TEL",
-        "text": "0512-576 70"
-    },
-    {
-        "label": "TEL",
-        "text": "0512-576 40."
-    },
-    {
-        "label": "TEL",
-        "text": "0512-576 40"
+        "text": "+46 570 83 200"
     }
 ]
