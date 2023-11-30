@@ -4,26 +4,6 @@
         "text": "Lövaråsgatan 6\n534 84 VEDUM"
     },
     {
-        "label": "EMAIL",
-        "text": "orderbad@vedum.se"
-    },
-    {
-        "label": "EMAIL",
-        "text": "kvarnen@vedum.se"
-    },
-    {
-        "label": "EMAIL",
-        "text": "09:00–16:00"
-    },
-    {
-        "label": "TEL",
-        "text": "0512-576 40"
-    },
-    {
-        "label": "EMAIL",
-        "text": "kundtjanst@vedum.se"
-    },
-    {
         "label": "TEL",
         "text": "0512-576 00"
     },
@@ -33,18 +13,14 @@
     },
     {
         "label": "TEL",
-        "text": "0512-576 40."
-    },
-    {
-        "label": "EMAIL",
-        "text": "09:00–13:00"
-    },
-    {
-        "label": "TEL",
         "text": "0512-576 70"
     },
     {
-        "label": "EMAIL",
-        "text": "info@vedum.se"
+        "label": "TEL",
+        "text": "0512-576 40."
+    },
+    {
+        "label": "TEL",
+        "text": "0512-576 40"
     }
 ]
