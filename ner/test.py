@@ -1,9 +1,19 @@
 import spacy
 import json
 import re
-
+import html
 # Load the trained models
 nlp1 = spacy.load("./output/model-best")  # load the best model
+
+def clean_text(input_text):
+    # Remove HTML tags and convert HTML entities to their corresponding characters
+    cleaned_text = html.unescape(re.sub(r'<.*?>', '', input_text))
+    # Remove multiple consecutive whitespaces
+    cleaned_text = re.sub(r'\s+', ' ', cleaned_text).strip()
+    return cleaned_text
+
+# Process the text with the models
+models = [nlp1]
 
 file_path = "../test_text.txt"
 output_file_path_json = "output_entities.json"
@@ -18,17 +28,15 @@ email_pattern = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.(com|net|org|edu|gov|mil|i
 with open(file_path, "r", encoding="utf-8") as file:
     text = file.read()
 
-# Process the text with the models
-models = [nlp1]
+# Extract unique entities
 unique_entities = set()
 
 for model in models:
     doc = model(text)
     for ent in doc.ents:
-        key = (ent.label_, ent.text)
-        unique_entities.add(key)
+        unique_entities.add(ent.text)
 
-entities = [{"label": label, "text": text} for label, text in unique_entities]
+entities = [{"label": "UNKNOWN", "text": text} for text in unique_entities]
 
 # Filter and Save TEL entities to JSON and text file
 parsed_entities = []
