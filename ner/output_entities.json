@@ -1,10 +1,37 @@
 [
     {
+        "label": "TEL",
+        "text": "0371-837 00",
+        "pattern": "tel_pattern_3"
+    },
+    {
         "label": "EMAIL",
-        "text": "info@arvikagjuteri.se"
+        "text": "info@gislavedfolie.se",
+        "pattern": "email_pattern"
+    },
+    {
+        "label": "ADDRESS",
+        "text": "Box 518 332 28 Gislaved Besöksadress",
+        "pattern": null
+    },
+    {
+        "label": "ADDRESS",
+        "text": "Åbjörnsgatan 8, 332 36 Gislaved",
+        "pattern": null
     },
     {
         "label": "TEL",
-        "text": "+46 570 83 200"
+        "text": "0371-143 66",
+        "pattern": "tel_pattern_3"
+    },
+    {
+        "label": "ADDRESS",
+        "text": "Mötterudsvägen 4 671 34 ARVIKA",
+        "pattern": null
+    },
+    {
+        "label": "EMAIL",
+        "text": "arvika@adbildelar.se",
+        "pattern": "email_pattern"
     }
 ]
