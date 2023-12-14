@@ -1,4 +1,4 @@
-# SkyIntelligence
+# SkyIntelligence-Swedish
 
 This repository contains a Python script for training a custom NER model using spaCy. The model is designed to identify addresses in Swedish text.
 
